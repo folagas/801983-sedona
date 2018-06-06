@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="./index_files/style.css">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+      <a class="main-logo">
+        <img src="img/main-logo.png" width="138" height="70" alt="логотип города Седона">
+      </a>
+        <ul class="site-navigation">
+          <li> <a href="info.html"> Информация </a> </li>
+          <li> <a href="media.html">Фото и видео </a> </li>
+          <li> <a href="sitemap.html">Карта штата </a> </li>
+          <li> <a href="hotels.html">Гостиницы </a> </li>
+        </ul>
+
+      </nav>
+    </header>
+
+
+    <main class="container">
+    
+  </main>
+
+    <footer class="info">
+<div class="credits">#visitsedona </div>
+<div class="credits">
+<ul class="social">
+  <li> <a href="#">twitter</a></li>
+  <li> <a href="#">facebook</a></li>
+  <li> <a href="#">youtube</a></li>
+
+</ul>
+
+</div>
+<div class="credits"><a href="#" class="bottom-logo"><img src="logo.academy" alt="лого html-академии"></a></div>
+
+
+</footer></body></html>
