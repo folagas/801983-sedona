@@ -22,7 +22,101 @@
 
 
     <main class="container">
-    
+    <section class="filters">
+    <h1 class="visually-hidden"> Поиск жилья </h1>
+<form class="filter-hotel"> </form>
+     </section>
+     <section class="search-results">
+     <span class="sorting">Найдено:3
+     </span>
+     <span class="search-results-label">Сортировка:</span>
+     <ul class="results-navigation">
+<li class="current-nav"><a> По цене </a></li>
+<li class="normal-nav"><a href="#">По типу</a></li>
+<li class="normal-nav"><a href="#">По рейтингу</a></li>
+     </ul>
+
+<div class="main-card">
+<div class="card">
+<h3 class="hotel-name">Amara resort & SPA</h3>
+<img src="images/amara.jpg" width="" height="" alt="Amara">
+
+
+     <p class="description">
+      <span class="hotel-type"> Гостиница </span> <span class="hotel-price"> от 4000 р </span>
+      <a class="button-link" href="#">Подробнее</a>
+      <a class="button-action" href="#">Забронировать</a>
+    </p>
+</div>
+<div class="rating">
+<h4 class="visually hidden">Звезды</h4>
+<ul class="stars">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<span class="rating-number">Рейтинг 8.5</span>
+</div>
+</div>
+
+
+
+
+
+<div class="main-card">
+<div class="card">
+<h3 class="hotel-name">Desert qual INN</h3>
+<img src="images/desert.jpg" width="" height="" alt="Desert INN">
+
+
+     <p class="description">
+      <span class="hotel-type"> Гостиница </span> <span class="hotel-price"> от 4000 р </span>
+      <a class="button-link" href="#">Подробнее</a>
+      <a class="button-action" href="#">Забронировать</a>
+    </p>
+</div>
+<div class="rating">
+<h4 class="visually hidden">Звезды</h4>
+<ul class="stars">
+<li></li>
+<li></li>
+<li></li>
+<
+</ul>
+<span class="rating-number">Рейтинг 8.9</span>
+</div>
+</div>
+
+
+
+<div class="main-card">
+<div class="card">
+<h3 class="hotel-name">Villas at Poco Diablo</h3>
+<img src="images/diablo.jpg" width="" height="" alt="Poco Diablo">
+
+
+     <p class="description">
+      <span class="hotel-type"> Апартаменты </span> <span class="hotel-price"> от 2000 р </span>
+      <a class="button-link" href="#">Подробнее</a>
+      <a class="button-action" href="#">Забронировать</a>
+    </p>
+</div>
+<div class="rating">
+<h4 class="visually hidden">Звезды</h4>
+<ul class="stars">
+<li></li>
+<li></li>
+
+</ul>
+<span class="rating-number">Рейтинг 9.2</span>
+</div>
+</div>
+
+
+
+      </section>
+
   </main>
 
     <footer class="info">
