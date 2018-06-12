@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="./index_files/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
@@ -35,7 +36,7 @@
   <form class="filter-hotel"> </form>
 
 <!--- меню результатов поиска----->
-  <div class="hotels">
+  <div class="result-hotels">
     <span class="results-title">Найдено:</span><span class="hotels-number">3</span>
 
     <ul class="classification">
@@ -47,14 +48,29 @@
 
    <!--- конец меню результатов поиска----->
 
+   <!--- список отелей---->
 
-     <article class="main-card">
 
+<div class="hotels-list">
+
+       <article class="main-card">
+
+ <!--- левая часть карточки ---->
+       <div class="about-hotel">
          <h3 class="hotel-name">Amara resort & SPA</h3>
          <img src="images/amara.jpg" width="" height="" alt="Amara">
+       </div>
+
+        <div class="description">
+        <span class="hotel-type"> Апартаменты </span> <span class="hotel-price"> от 2000 р </span>
+        <a class="button-link" href="#">Подробнее</a>
+        <a class="button-action" href="#">Забронировать</a>
+      </div>
 
 
 
+<!--- правая часть карточки ---->
+       <div class="rating">
 
            <h4 class="visually hidden">Звезды</h4>
            <ul class="stars">
@@ -67,9 +83,9 @@
 
 
        </article>
-
 </div>
-<!-------
+
+<!---
 
 
 <div class="main-card">
