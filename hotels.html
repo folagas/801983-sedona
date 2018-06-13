@@ -38,67 +38,66 @@
 <!--- меню результатов поиска----->
   <section class="results-menu">
 
-    <div class="found">
-    Найдено:<span class="found-number">3</span>
-    </div>
+      <div class="found">
+        Найдено:<span class="found-number">3</span>
+      </div>
 
-    <div class="sorting">
-        <div class="sorting-title"> Сортировать:
-        </div>
+      <div class="sorting">
+            <div class="sorting-title"> Сортировать:
+            </div>
 
-        <div class="sorting-menu">
-            <ul class="sorting-classification">
-              <li class="sorting-nav-current"><a href="#">По цене</a></li>
-              <li class="sorting-nav-plain"><a href="#">По типу</a></li>
-              <li class="sorting-nav-plain"><a href="#">По рейтингу</a></li>
-            </ul>
-          </div>
+            <div class="sorting-menu">
+              <ul class="sorting-classification">
+                <li class="sorting-nav-current"><a href="#">По цене</a></li>
+                <li class="sorting-nav-plain"><a href="#">По типу</a></li>
+                <li class="sorting-nav-plain"><a href="#">По рейтингу</a></li>
+              </ul>
+            </div>
 
           <div class="sorting-arrows">
           </div>
 
-     </div>
+      </div>
 
- </section>
+   </section>
 
    <!--- конец меню результатов поиска----->
 
    <!--- список отелей---->
 
 
-<div class="hotels-list">
 
-       <article class="main-card">
+  <section class="hotels-list">
+
+       <article class="hotel">
 
  <!--- левая часть карточки ---->
-       <div class="about-hotel">
-         <h3 class="hotel-name">Amara resort & SPA</h3>
-         <img src="images/amara.jpg" width="" height="" alt="Amara">
-       </div>
+        <figure class="hotel-img">
+        <img src="images/amara.jpg" width="" height="" alt="Amara">
+        </figure>
+<!--- средляя часть карточки--->
+      <div class="hotel-about">
+            <div class="hotel-description">
+              <h3 class="hotel-about-title"> Amara resort & SPA</h3>
+              <span class="hotel-type"> Апартаменты </span> <span class="hotel-price"> от 2000 р </span>
+            </div>
 
-        <div class="description">
-        <span class="hotel-type"> Апартаменты </span> <span class="hotel-price"> от 2000 р </span>
-        <a class="button-link" href="#">Подробнее</a>
-        <a class="button-action" href="#">Забронировать</a>
+            <div class="hotel-buttons">
+              <a class="hotel-button-link" href="#">Подробнее</a>
+              <a class="hotel-button-action" href="#">Забронировать</a>
+            </div>
       </div>
 
-
-
 <!--- правая часть карточки ---->
-       <div class="rating">
-
+       <div class="hotel-rating">
            <h4 class="visually hidden">Звезды</h4>
-           <ul class="stars">
-             <li></li>
-             <li></li>
-             <li></li>
-             <li></li>
-           </ul>
+           <div class="stars"><img src="stars.svg" width="" height="" alt="звезды" >
+           </div>
            <span class="rating-number">Рейтинг 8.5</span>
-
+        </div>
 
        </article>
-</div>
+</section>
 
 <!---
 
