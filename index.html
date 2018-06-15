@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-<
-
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
     <header class="main-header">
-
         <nav class="main-navigation">
-            <a href="index.html" class="main-logo">
+            <a  class="main-logo">
             <img src="img/main-logo.png" width="138" height="70" alt="логотип города Седона">
             </a>
               <ul class="site-navigation">
                   <li class="nav-left">
-                     <a href="info.html"> Информация </a>
+                     <a href="info.html"> Информация
+                     </a>
                    </li>
                   <li class="nav-left">
-                    <a href="media.html">Фото и видео </a>
+                    <a href="media.html">Фото и видео
+                    </a>
                   </li>
                   <li class="nav-right">
-                    <a href="sitemap.html">Карта штата </a>
+                    <a href="sitemap.html">Карта штата
+                     </a>
                    </li>
                   <li class="nav-right">
-                    <a href="hotels.html">Гостиницы </a>
+                    <a href="hotels.html">Гостиницы
+                     </a>
                    </li>
               </ul>
         </nav>
@@ -35,7 +36,6 @@
 
 
   <main class="container">
-
       <section class="intro">
         <p class="visually-hidden">Welcome to the gorgeous
         </p>
@@ -57,9 +57,67 @@
 
       <section class="five-features">
 
+
+
+
+<section class="search-hotel">
+
+  <h2 class="visually-hidden"> Карта и поиск </h2>
+  <p class="invitation">
+    Заинтересовались?
+  </p>
+  <p class="text-hotel">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне
+  </p>
+
+
+<div-class="search-hotel-wrapper">
+  <h3 class="search-hotel-title"> Поиск гостиницы в Седоне</h3>
+
+  <form class="search" method="get"
+         action="#">
+     <p>
+       <label for="first-date">Дата въезда</label>
+       <input id="first-date" type="text"
+              name="first-date" placeholder="24 апреля 2017">
+     </p>
+     <p>
+       <label for="second-date">Дата въезда</label>
+       <input id="second-date" type="text"
+              name="second-date" placeholder="4 июля 2017">
+     </p>
+
+     <p>
+       <label>
+         Взрослые
+         <input type="text" name="adults">
+
+       </label>
+       <label>
+         Дети
+         <input type="text" name="children">
+       </label>
+     </p>
+     <button type="submit">Найти</button>
+   </form>
+ </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 <!--- 5 причин в одном блоке-------->
 
-
+<!-------------
 
 
 
@@ -114,17 +172,33 @@
 
     </main>
 
+    --------->
+
     <footer class="info">
-<div class="credits">#visitsedona </div>
-<div class="credits">
-<ul class="social">
-  <li> <a href="#">twitter</a></li>
-  <li> <a href="#">facebook</a></li>
-  <li> <a href="#">youtube</a></li>
 
-</ul>
+        <div class="hash">#visitsedona </div>
+        <div class="social-networks">
+          <ul class="social">
+              <li>
+                 <a href="#">twitter
+                 </a>
+               </li>
+              <li>
+                <a href="#">facebook
+                </a>
+              </li>
+              <li>
+                 <a href="#">youtube
+                 </a>
+               </li>
+          </ul>
+        </div>
 
-</div>
-<div class="credits"><a href="#" class="bottom-logo"><img src="/img/logo.academy"></a></div>
+        <div class="bottom-logo"><a href="https://htmlacademy.ru/intensive/htmlcss" class="link-logo">Website by:<img src="img/logo_academy.svg" width="115" height="41" alt="лого html-академии"></a></div>
+
+
+    </footer>
+
+  </body>
 
 </html>
