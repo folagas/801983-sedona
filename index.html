@@ -109,24 +109,24 @@
 
 
               <ul class="five-reasons-subcategory">
-                <li class="f-reasons-extra-in">
+                <li class="five-reasons-subelement">
                   <h3 class="five-reasons-title"> Жильё
                   </h3>
                     <p> Рекомендуем пожить в настоящем мотеле, всё как в кино!
                     </p>
-                  </li>
-                  <li class="f-reasons-extra-in">
+                </li>
+                <li class="five-reasons-subelement">
                     <h3 class="five-reasons-title"> Еда
                     </h3>
                     <p> Всегда заказывайте фирменный бургер, вы не разочаруетесь!
                     </p>
-                  </li>
-                  <li class="f-reasons-extra-in">
+                </li>
+                <li class="five-reasons-subelement">
                     <h3 class="five-reasons-title"> Сувениры
                     </h3>
                     <p> Не только китайского, но и местного производства!
                     </p>
-                  </li>
+                </li>
 
                 </ul>
 
@@ -152,31 +152,33 @@
 <div-class="search-hotel-wrapper">
   <h3 class="search-hotel-title"> Поиск гостиницы в Седоне</h3>
 
-  <form class="search" method="get"
-         action="#">
-     <p>
+  <form <form action="/echo"class="search" method="get">
+
        <label for="first-date">Дата въезда</label>
        <input id="first-date" type="text"
               name="first-date" placeholder="24 апреля 2017">
-     </p>
-     <p>
+
+    <br>
        <label for="second-date">Дата въезда</label>
        <input id="second-date" type="text"
               name="second-date" placeholder="4 июля 2017">
-     </p>
 
-     <p>
-       <label>
+
+
+      <div class="half">
+        <label>
          Взрослые
          <input type="text" name="adults">
-
        </label>
+     </div>
+     <div class="half">
        <label>
          Дети
          <input type="text" name="children">
        </label>
+     </div>
      </p>
-     <button type="submit">Найти</button>
+     <button class="main-button" type="submit">Найти</button>
    </form>
  </div>
 
