@@ -92,9 +92,39 @@
 .search-hotel-title{
 
 }
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #cccccc;
+
+    }
+
+    input {
+        height: 24px;
+    }
+
+    input[type="submit"] {
+
+        width: auto;
+        height: auto;
+        margin: 0 5px;
+        padding: 6px 15px;
+        border:1px solid #81b3d2;
+        background-color: #81b3d2;
+
+        color:white;
+    }
+
+
 .half{
 
+    display: inline-block;
+    width: 50%;
+
+
 }
-.main-button{
+.buttons{
 
 }

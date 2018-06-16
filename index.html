@@ -150,35 +150,37 @@
 
 
 <div-class="search-hotel-wrapper">
-  <h3 class="search-hotel-title"> Поиск гостиницы в Седоне</h3>
 
-  <form <form action="/echo"class="search" method="get">
 
-       <label for="first-date">Дата въезда</label>
-       <input id="first-date" type="text"
-              name="first-date" placeholder="24 апреля 2017">
+  <form action="/echo"class="search" method="get">
+      <h3 class="search-hotel-title"> Поиск гостиницы в Седоне</h3>
+       <label for="first-date">Дата въезда
+       </label>
+       <input id="first-date" type="date"  name="first-date" value="date" >
 
     <br>
-       <label for="second-date">Дата въезда</label>
-       <input id="second-date" type="text"
-              name="second-date" placeholder="4 июля 2017">
+       <label for="second-date">Дата выезда
+       </label>
+       <input id="second-date" type="date"  name="second-date" value="date">
 
-
+<br>
 
       <div class="half">
         <label>
          Взрослые
-         <input type="text" name="adults">
+         <input type="number" name="adults" id="adults" min="1">
        </label>
      </div>
      <div class="half">
        <label>
          Дети
-         <input type="text" name="children">
+         <input type="number" name="children"  id="children" min="0">
        </label>
      </div>
-     </p>
-     <button class="main-button" type="submit">Найти</button>
+     <div class="buttons">
+    <input type="submit" value="Найти">
+    </div>
+
    </form>
  </div>
 
