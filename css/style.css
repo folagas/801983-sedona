@@ -93,12 +93,13 @@
 
 }
 
+/*форма поиска*/
+
 form {
-    width: 600px;
+    width: 568px;
     margin: 0 auto;
     padding: 5px;
     border: 1px solid #cccccc;
-
     }
 
     input {
@@ -106,25 +107,45 @@ form {
     }
 
     input[type="submit"] {
-
         width: auto;
         height: auto;
         margin: 0 5px;
         padding: 6px 15px;
-        border:1px solid #81b3d2;
+        border: 0;
         background-color: #81b3d2;
-
         color:white;
     }
 
 
 .half{
-
     display: inline-block;
     width: 50%;
+}
 
+.buttons{
 
 }
-.buttons{
+
+/*футер*/
+
+.footer-info{
+
+}
+.footer-hash{
+
+}
+.footer-social-networks{
+
+}
+.social{
+
+}
+.social-element{
+
+}
+.bottom-logo{
+
+}
+.link-logo{
 
 }
