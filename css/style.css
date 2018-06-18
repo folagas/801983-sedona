@@ -156,3 +156,41 @@ form {
 .link-logo{
 
 }
+
+/*форма поиска расширенная*/
+
+.search-field{
+
+}
+.search-advanced{
+
+}
+.search-group{
+
+}
+.search-advanced-text{
+
+}
+.custom-box{
+
+}
+.checkbox{
+  cursor:pointer;
+}
+.standart-checkbox {
+  display: none;
+}
+.custom-box{
+  display:block;
+  float:left;
+  width:27;
+  height:23;
+  background-color:grey;
+  margin-right:20px;
+}
+.checklist{
+
+}
+.from-to{
+
+}
