@@ -132,6 +132,43 @@ form {
 .button-group{
 
 }
+/*секция сортировки результатов поиска отеля*/
+.results-menu{
+
+}
+.results-found{
+
+}
+.results-found-number{
+
+}
+.results-sorting{
+
+}
+.results-sorting-title{
+
+}
+.results-sorting-menu{
+
+}
+.results-sorting-classification{
+
+}
+.sorting-nav-current{
+
+}
+.sorting-nav-plain{
+
+}
+
+
+
+
+
+
+
+
+
 
 /*футер*/
 
@@ -195,5 +232,41 @@ form {
 
 }
 .cost-range{
+
+}
+
+/*карточки отелей*/
+.hotel-img{
+
+}
+.hotel-about{
+
+}
+.hotel-description{
+
+}
+.hotel-about-title{
+
+}
+.hotel-type{
+
+}
+.hotel-price{
+
+}
+.hotel-button-link{
+
+}
+.hotel-button-action{
+
+}
+.hotel-rating{
+
+}
+.stars{
+
+}
+
+.rating-number{
 
 }

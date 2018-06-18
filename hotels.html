@@ -116,24 +116,39 @@
 
 <!--- меню результатов поиска----->
   <section class="results-menu">
-
-      <p class="found">
-        Найдено:<span class="found-number">3</span>
+      <p class="results-found">
+        Найдено:
+        <span class="results-found-number">3
+        </span>
       </p>
 
-      <div class="sorting">
-            <div class="sorting-title"> Сортировать:
-            </div>
+      <div class="results-sorting">
+            <span class="results-sorting-title">
+              Сортировка:
+            </span>
 
-            <div class="sorting-menu">
-              <ul class="sorting-classification">
-                <li class="sorting-nav-current"><a href="#">По цене</a></li>
-                <li class="sorting-nav-plain"><a href="#">По типу</a></li>
-                <li class="sorting-nav-plain"><a href="#">По рейтингу</a></li>
+      <div class="results-sorting-menu">
+              <ul class="results-sorting-classification">
+                <li class="sorting-nav-current">
+                  <a href="#">По цене
+                  </a>
+                </li>
+                <li class="sorting-nav-plain">
+                  <a href="#">По типу
+                  </a>
+                </li>
+                <li class="sorting-nav-plain">
+                  <a href="#">По рейтингу
+                  </a>
+                </li>
               </ul>
-            </div>
+      </div>
 
           <div class="sorting-arrows">
+            <button type="button" class="up"><img src="img/icon-up-dir.svg">
+            </button>
+            <button type="button" class="down"><img src="img/icon-down-dir.svg">
+            </button>
           </div>
 
       </div>
@@ -142,9 +157,10 @@
 
    <!--- конец меню результатов поиска----->
 
+
+
+
    <!--- список отелей---->
-
-
 
   <section class="hotels-list">
 
@@ -157,95 +173,117 @@
 <!--- средляя часть карточки--->
       <div class="hotel-about">
             <div class="hotel-description">
-              <h3 class="hotel-about-title"> Amara resort & SPA</h3>
-              <span class="hotel-type"> Гостиница </span> <span class="hotel-price"> от 4000 р </span>
+              <h3 class="hotel-about-title"> Amara resort & SPA
+              </h3>
+                <span class="hotel-type"> Гостиница
+                </span>
+                <span class="hotel-price"> от 4000 р
+                </span>
 
-            <div class="hotel-buttons">
-              <a class="hotel-button-link" href="#">Подробнее</a>
-              <a class="hotel-button-action" href="#">Забронировать</a>
-            </div>
+        <div class="hotel-buttons">
+              <button type="button" class="hotel-button-link">Подробнее
+              </button>
+              <button type="submit" class="hotel-button-action"> Забронировать
+              </button>
+        </div>
       </div>
 
 <!--- правая часть карточки ---->
        <div class="hotel-rating">
            <h4 class="visually hidden">Звезды</h4>
-           <div class="stars"><img src="stars.svg" width="" height="" alt="звезды" >
+           <div class="stars">
            </div>
            <span class="rating-number">Рейтинг 8.5</span>
         </div>
 
        </article>
 
-<!--второй отель------>
-
-       <article class="hotel">
-
-       <!--- левая часть карточки ---->
-        <figure class="hotel-img">
-        <img src="images/desertinn.jpg" width="" height="" alt="Desert qual INN">
-        </figure>
-       <!--- средляя часть карточки--->
-       <div class="hotel-about">
-            <div class="hotel-description">
-              <h3 class="hotel-about-title"> Desert qual INN</h3>
-              <span class="hotel-type"> Мотель</span> <span class="hotel-price"> от 3000 р </span>
-
-
-            <div class="hotel-buttons">
-              <a class="hotel-button-link" href="#">Подробнее</a>
-              <a class="hotel-button-action" href="#">Забронировать</a>
-            </div>
-       </div>
-
-       <!--- правая часть карточки ---->
-       <div class="hotel-rating">
-           <h4 class="visually-hidden">Звезды</h4>
-           <div class="stars"><img src="stars.svg" width="" height="" alt="звезды" >
-           </div>
-           <span class="rating-number">Рейтинг 8.9</span>
-        </div>
-
-       </article>
-
-       <!--третий отель------>
-
-              <article class="hotel">
-
-              <!--- левая часть карточки ---->
-               <figure class="hotel-img">
-               <img src="images/villaspoco.jpg" width="" height="" alt="Villas at Poco Diablo">
-               </figure>
-              <!--- средляя часть карточки--->
-              <div class="hotel-about">
-                   <div class="hotel-description">
-                     <h3 class="hotel-about-title"> Villas at Poco Diablo</h3>
-                     <span class="hotel-type"> Апартаменты</span> <span class="hotel-price"> от 2000 р </span>
+<!------->
 
 
 
+<article class="hotel">
 
-                   <div class="hotel-buttons">
-                     <a class="hotel-button-link" href="#">Подробнее</a>
-                     <a class="hotel-button-action" href="#">Забронировать</a>
-                   </div>
-              </div>
+<!--- левая часть карточки ---->
+ <figure class="hotel-img">
+ <img src="images/desert.jpg" width="" height="" alt="Desert qual INN">
+ </figure>
+<!--- средляя часть карточки--->
+<div class="hotel-about">
+     <div class="hotel-description">
+       <h3 class="hotel-about-title"> Desert qual INN
+       </h3>
+         <span class="hotel-type"> Мотель
+         </span>
+         <span class="hotel-price"> от 3000 р
+         </span>
 
-              <!--- правая часть карточки ---->
-              <div class="hotel-rating">
-                  <h4 class="visually hidden">Звезды</h4>
-                  <div class="stars"><img src="stars.svg" width="" height="" alt="звезды" >
-                  </div>
-                  <span class="rating-number">Рейтинг 8.9</span>
-               </div>
+ <div class="hotel-buttons">
+       <button type="button" class="hotel-button-link">Подробнее
+       </button>
+       <button type="submit" class="hotel-button-action"> Забронировать
+       </button>
+ </div>
+</div>
 
-              </article>
+<!--- правая часть карточки ---->
+<div class="hotel-rating">
+    <h4 class="visually hidden">Звезды</h4>
+    <div class="stars">
+    </div>
+    <span class="rating-number">Рейтинг 8.9</span>
+ </div>
 
-            </section>
+</article>
 
-  </main>
+<!------->
+
+
+<article class="hotel">
+
+<!--- левая часть карточки ---->
+ <figure class="hotel-img">
+ <img src="images/Villas.jpg" width="" height="" alt="Villas at Poco Diablo">
+ </figure>
+<!--- средляя часть карточки--->
+<div class="hotel-about">
+     <div class="hotel-description">
+       <h3 class="hotel-about-title"> Villas at Poco Diablo
+       </h3>
+         <span class="hotel-type"> Апартаменты
+         </span>
+         <span class="hotel-price"> от 2000 р
+         </span>
+
+ <div class="hotel-buttons">
+       <button type="button" class="hotel-button-link">Подробнее
+       </button>
+       <button type="submit" class="hotel-button-action"> Забронировать
+       </button>
+ </div>
+</div>
+
+<!--- правая часть карточки ---->
+<div class="hotel-rating">
+    <h4 class="visually hidden">Звезды</h4>
+    <div class="stars">
+    </div>
+    <span class="rating-number">Рейтинг 9.2</span>
+ </div>
+
+</article>
+
+<!------->
+
+
+
+</section>
+
+</main>
+
+
 
   <footer class="footer-info">
-
       <div class="footer-hash">#visitsedona </div>
       <div class="footer-social-networks">
         <ul class="social">
@@ -266,9 +304,7 @@
 
       <div class="bottom-logo"><a href="https://htmlacademy.ru/intensive/htmlcss" class="link-logo">Website by:<img src="img/logo_academy.svg" width="115" height="41" alt="лого html-академии"></a></div>
 
-
   </footer>
-
 
 
   </body></html>
