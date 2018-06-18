@@ -151,37 +151,50 @@
 
 <div-class="search-hotel-wrapper">
 
+<h3 class="search-hotel-title"> Поиск гостиницы в Седоне</h3>
 
   <form action="/echo"class="search" method="get">
-      <h3 class="search-hotel-title"> Поиск гостиницы в Седоне</h3>
-       <label for="first-date">Дата въезда
-       </label>
-       <input id="first-date" type="date"  name="first-date" value="date" >
+    <label>
+      <span class="form-labels">
+      Дата въезда
+      </span>
+        <input type="date"  name="first-date">
+    </label>
 
-    <br>
-       <label for="second-date">Дата выезда
-       </label>
-       <input id="second-date" type="date"  name="second-date" value="date">
+      <label>
+        <span class="form-labels">
+        Дата выезда
+        </span>
+          <input type="date"  name="second-date">
+      </label>
 
 <br>
-
-      <div class="half">
-        <label>
+      <label>
+        <span class="form-labels">
          Взрослые
-         <input type="number" name="adults" min="1">
+       </span>
+         <div class="button-group">
+           <button type="button" class="button-count">-</button>
+           <input type="text" name="adults">
+           <button type="button" class="button-count">+</button>
+        </div>
+
        </label>
-     </div>
-     <div class="half">
+
        <label>
-         Дети
-         <input type="number" name="children"  min="0">
-       </label>
-     </div>
-     <div class="buttons">
+         <span class="form-labels">
+          Дети
+        </span>
+          <div class="button-group">
+            <button type="button" class="button-count">-</button>
+            <input type="text" name="adults">
+            <button type="button" class="button-count">+</button>
+         </div>
+        </label>
     <input type="submit" value="Найти">
-    </div>
 
    </form>
+
  </div>
 
 
@@ -194,7 +207,7 @@
 
     </main>
 
-    --------->
+
 
     <footer class="footer-info">
 

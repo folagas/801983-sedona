@@ -117,12 +117,19 @@ form {
     }
 
 
-.half{
+/* .half{
     display: inline-block;
     width: 50%;
 }
 
 .buttons{
+
+}
+*/
+.button-count{
+
+}
+.button-group{
 
 }
 
