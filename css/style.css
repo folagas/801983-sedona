@@ -301,6 +301,12 @@ form {
 /*футер*/
 
 .footer-info{
+  display: flex;
+  justify-content:space-around;
+  background-color: ffffff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .footer-hash{
@@ -308,11 +314,16 @@ form {
 }
 .footer-social-networks{
 
+
 }
 .social{
 
+
 }
 .social-element{
+  list-style:none;
+  display: inline-block;
+  margin-right: 20px;
 
 }
 .bottom-logo{
