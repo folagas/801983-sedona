@@ -6,7 +6,6 @@ body{
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
-  color: #000000;
   text-transform: uppercase;
   background-color: f2f2f2;
 
@@ -32,7 +31,7 @@ a:active{
 }
 
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -42,7 +41,7 @@ a:active{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-*/
+
 
 /* Навигация*/
 
@@ -50,6 +49,7 @@ a:active{
 
 }
 .main-navigation {
+  font-size: 14px;
 
 }
 .main-logo{
@@ -92,11 +92,26 @@ color:black;
 
 }
 .presentation-text{
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
 
 }
 .presentation-subtext{
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
 
 }
+.picture {
+  display: block;
+  max-width: 1200px;
+  height: 510px;
+  background-color: #5284b3;
+  background-image: url("img/sedona_background1200.jpg"),url("img/welcome.png");
+
+}
+
 /* Основная часть, 5 причин*/
 
 .five-reasons-container{
@@ -104,19 +119,32 @@ color:black;
 }
 
 .five-reasons-list{
+  list-style: none;
+
 
 }
 .five-reasons-element-1{
+  text-align: center;
 
 }
 .five-reasons-element-2{
+  text-align: center;
 
 }
 
 .five-reasons-title{
+  font-weight: bold;
+  font-size: 21px;
 
 }
+
+.five-reasons-normal{
+  font-size: 14px;
+  color: #333333;
+}
 .number-cause{
+  font-size: 14px;
+  color: #333333;
 
 }
 
@@ -126,9 +154,12 @@ color:black;
 
 /*дополнительный пункт*/
 .five-reasons-extra-element{
+  text-align: center;
+
 
 }
 .five-reasons-subcategory{
+  list-style: none;
 
 }
 .five-reasons-subelement{
@@ -137,10 +168,28 @@ color:black;
 
 /*поиск отеля на главной*/
 .search-hotel-wrapper{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .search-hotel-title{
+  display:block;
+  background-color: #766357;
+  text-align: center;
+  color: #ffffff;
+  width:568px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
 
+}
+.invitation{
+  text-align: center;
+  font-size: 30px;
+}
+.text-hotel{
+  text-align: center;
 }
 
 /*форма поиска*/
