@@ -12,6 +12,26 @@ body{
 
 }
 
+a {
+  text-decoration: none;
+}
+a:link{
+color:#000000;
+}
+a:visited{
+color:#000000;
+}
+a:focus{
+  color:#766357;
+}
+a:hover{
+  color:#81b3d2;
+}
+a:active{
+  color:#cacaca;
+}
+
+
 /* .visually-hidden {
   position: absolute;
   width: 1px;
@@ -49,10 +69,10 @@ body{
 margin-bottom:8px;
 
 }
-.site-navigation a{
+/*.site-navigation a{
 color:black;
 
-}
+}*/
 
 .nav-left{
 
