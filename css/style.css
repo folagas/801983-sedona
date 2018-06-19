@@ -97,11 +97,13 @@ color:black;
 /* Основная часть, вводная инфа*/
 
 .container{
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
-.intro{
 
-}
 .presentation-container{
 
 }
