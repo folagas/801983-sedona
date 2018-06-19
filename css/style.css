@@ -7,7 +7,7 @@ body{
   line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: f2f2f2;
+  background-color: #f2f2f2;
 
 }
 
@@ -103,12 +103,18 @@ color:black;
   color: #333333;
 
 }
-.picture {
+.intro {
   display: block;
   max-width: 1200px;
   height: 510px;
   background-color: #5284b3;
-  background-image: url("img/sedona_background1200.jpg"),url("img/welcome.png");
+  background-image: url("../img/welcome.png"),
+                    url("../img/white_mask.png"),
+                    url("../img/sedona_background1200.jpg");
+  background-repeat: no-repeat;
+  background-position: center center, bottom center, center -80px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
