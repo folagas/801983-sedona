@@ -109,7 +109,7 @@ color:black;
   height: 510px;
   background-color: #5284b3;
   background-image: url("../img/welcome.png"),
-                    url("../img/white_mask.png"),
+                    url("../img/white_mask.svg"),
                     url("../img/sedona_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center center, bottom center, center -80px;
