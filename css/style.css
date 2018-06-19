@@ -22,8 +22,24 @@
 
 }
 .site-navigation{
+    list-style:none;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0;
 
 }
+
+.site-navigation li{
+margin-bottom:8px;
+
+}
+.site-navigation a{
+color:black;
+
+}
+
 .nav-left{
 
 }
