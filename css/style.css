@@ -148,17 +148,26 @@ color:black;
 }
 
 .five-reasons-list{
+  display:flex;
+  flex-wrap: wrap;
   list-style: none;
 
 
 }
 .five-reasons-element-1 {
-  text-align: center;
-  width:33%;
+  display: flex;
+  flex-wrap: nowrap;
   background-color: #81b3d2;
   color: #ffffff;
-  padding: 20px;
   margin: 0;
+  text-align: center;
+
+}
+#first-feature{
+  order:-2;
+}
+
+.container-text-photo-sedona{
 
 }
 
@@ -195,15 +204,29 @@ color:black;
 
 .photo-sedona{
 
+
 }
+
+.photo-sedona{
+
+	margin: 10px ;
+	overflow:hidden; /* this is important */
+		}
+	/* input values to crop the image: top, right, bottom, left */
+.photo-sedona img{
+        margin:-40px -40px -40px -40px;
+	}
+
 
 /*дополнительный пункт*/
 .five-reasons-extra-element{
   text-align: center;
+  order: -1;
 
 
 }
 .five-reasons-subcategory{
+  display: flex;
   list-style: none;
 
 }
