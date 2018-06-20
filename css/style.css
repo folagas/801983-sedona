@@ -168,6 +168,8 @@ color:black;
 }
 
 .container-text-photo-sedona{
+  padding:20px;
+  min-width:33%;
 
 }
 
@@ -189,6 +191,7 @@ color:black;
 .five-reasons-title{
   font-weight: bold;
   font-size: 21px;
+  margin-top: 200px;
 
 }
 
@@ -231,8 +234,25 @@ color:black;
 
 }
 .five-reasons-subelement{
-
+height:300px;
 }
+ #house{
+   background-image: url(../img/icon-1.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#food{
+  background-image: url(../img/icon-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gifts{
+  background-image: url(../img/icon-3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 
 /*поиск отеля на главной*/
 .search-hotel-wrapper{
