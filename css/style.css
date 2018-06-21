@@ -150,13 +150,14 @@ color:black;
 
 .five-reasons-list{
   display:flex;
+  flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
-
-
-
+}
+ul.five-reasons-list{
 
 }
+
 .five-reasons-element-1 {
   display: flex;
   background-color: #81b3d2;
