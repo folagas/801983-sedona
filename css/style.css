@@ -30,6 +30,10 @@ a:active{
   color:#cacaca;
 }
 
+ul, li {
+margin: 0;
+padding: 0;
+}
 
 .visually-hidden {
   position: absolute;
@@ -162,8 +166,7 @@ ul.five-reasons-list{
   display: flex;
   background-color: #81b3d2;
   color: #ffffff;
-  max-width: 1200px;
-  margin: 0 0;
+
   text-align: center;
 
 }
@@ -212,7 +215,7 @@ ul.five-reasons-list{
 .five-reasons-title{
   font-weight: bold;
   font-size: 21px;
-  margin-top: 200px;
+
 
 }
 
