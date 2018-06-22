@@ -175,7 +175,7 @@ ul.five-reasons-list{
 }
 
 .container-text-photo-sedona{
-  padding: 10px;
+  padding: 60px 40px;
   color: #fff;
   width: 33.333333%;
   vertical-align: top;
@@ -216,23 +216,27 @@ ul.five-reasons-list{
   font-weight: bold;
   font-size: 21px;
 
-
 }
+h3.five-reasons-title{
+margin-top: 65px;
+margin-bottom: 30px;}
 
 .five-reasons-normal{
   font-size: 14px;
   color: #333333;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .number-cause{
   font-size: 14px;
   color: #333333;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
 }
 
-.photo-sedona{
 
-
-}
 
 .photo-sedona{
 
