@@ -154,7 +154,7 @@ color:black;
 
 .five-reasons-list{
   display:flex;
-  flex-direction: column;
+  flex-direction:row;
   flex-wrap: wrap;
   list-style: none;
 }
@@ -166,7 +166,7 @@ ul.five-reasons-list{
   display: flex;
   background-color: #81b3d2;
   color: #ffffff;
-
+  width: 1200px;
   text-align: center;
 
 }
@@ -185,6 +185,7 @@ ul.five-reasons-list{
   width: 66.666666%;
   overflow: hidden;
   position: relative;
+  flex-grow: 1;
 
 }
 
@@ -210,6 +211,8 @@ ul.five-reasons-list{
 .five-reasons-element-2{
   text-align: center;
   background-color: #eeeeee;
+  width:33.333%;
+
 
 }
 
