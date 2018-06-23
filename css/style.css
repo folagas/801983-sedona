@@ -335,6 +335,7 @@ object-fit: cover;
 
 /*форма поиска*/
 
+
 form {
     width: 568px;
     margin: 0 auto;
@@ -372,33 +373,55 @@ form {
 .button-group{
 
 }
+
+
 /*секция сортировки результатов поиска отеля*/
 .results-menu{
 
+
 }
 .results-found{
+
 
 }
 .results-found-number{
 
 }
 .results-sorting{
+  display: inline-block;
+
+
 
 }
+
+li.results-menu  {
+  list-style:none;
+}
+
 .results-sorting-title{
 
 }
 .results-sorting-menu{
 
-}
-.results-sorting-classification{
 
 }
+.results-sorting-classification{
+  display: flex;
+  justify-content: space-around;
+list-style:none;
+}
 .sorting-nav-current{
+
 
 }
 .sorting-nav-plain{
 
+}
+
+
+.search-advanced{
+  display: flex;
+  justify-content: space-around;
 }
 
 
@@ -453,6 +476,15 @@ form {
 /*форма поиска расширенная*/
 
 .search-field{
+  display: block;
+  max-width: 1200px;
+  height: 215px;
+  background-color: #5284b3;
+  background-image: url("../img/filter_background1200.jpg");
+  background-repeat: no-repeat;
+  background-position: center  -200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .search-advanced{
