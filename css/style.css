@@ -180,6 +180,7 @@ ul.five-reasons-list{
   width: 33.333333%;
   vertical-align: top;
 
+
 }
 .container-photo-sedona{
   width: 66.666666%;
@@ -212,6 +213,7 @@ ul.five-reasons-list{
   text-align: center;
   background-color: #eeeeee;
   width:33.333%;
+  padding-bottom: 30px;
 
 
 }
@@ -222,17 +224,17 @@ ul.five-reasons-list{
 
 }
 h3.five-reasons-title{
-margin-top: 65px;
+margin-top: 30px;
 margin-bottom: 30px;}
 
-.five-reasons-normal{
+five-reasons-normal{
   font-size: 14px;
   color: #333333;
 }
 
 p.five-reasons-normal{
 
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
 
@@ -283,22 +285,24 @@ object-fit: cover;
 
 }
 .five-reasons-subelement{
-height:300px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+
 }
  #house{
    background-image: url(../img/icon-1.svg);
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: center 40px;
 }
 #food{
   background-image: url(../img/icon-2.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 40px;
 }
 #gifts{
   background-image: url(../img/icon-3.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 40px;
 }
 
 
