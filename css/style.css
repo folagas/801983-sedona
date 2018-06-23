@@ -209,6 +209,7 @@ ul.five-reasons-list{
 
 .five-reasons-element-2{
   text-align: center;
+  background-color: #eeeeee;
 
 }
 
@@ -224,10 +225,19 @@ margin-bottom: 30px;}
 .five-reasons-normal{
   font-size: 14px;
   color: #333333;
+}
+
+p.five-reasons-normal{
+
   margin-bottom: 30px;
   margin-left: 50px;
   margin-right: 50px;
+
 }
+
+
+
+
 .number-cause{
   font-size: 14px;
   color: #333333;
