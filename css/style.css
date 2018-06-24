@@ -341,9 +341,10 @@ object-fit: cover;
 /*форма поиска*/
 
 
-form {
+.search form {
     width: 568px;
-    margin: 0 auto;
+margin-left: 50%;
+margin-right: 50%;
     padding: 5px;
     border: 1px solid #cccccc;
     }
@@ -352,7 +353,7 @@ form {
         height: 24px;
     }
 
-    input[type="submit"] {
+  /*  input[type="submit"] {
         width: auto;
         height: auto;
         margin: 0 5px;
@@ -361,6 +362,7 @@ form {
         background-color: #81b3d2;
         color:white;
     }
+    */
 
 
 /* .half{
@@ -479,6 +481,10 @@ list-style:none;
 }
 
 /*форма поиска расширенная*/
+.advanced-form{
+
+
+}
 
 .search-field{
   display: block;
