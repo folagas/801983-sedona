@@ -548,6 +548,7 @@ list-style:none;
 .hotel{
   margin-right: auto;
   width:100%;
+  display: flex;
 
 }
 .hotel-about{
@@ -564,6 +565,11 @@ list-style:none;
 }
 .hotel-price{
 
+}
+
+.hotel-buttons{
+  display:inline-block;
+  margin-right: 10px;
 }
 .hotel-button-link{
 
