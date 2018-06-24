@@ -535,7 +535,19 @@ list-style:none;
 }
 
 /*карточки отелей*/
+.hotels-list{
+
+  display:flex;
+  flex-wrap: wrap;
+
+
+}
 .hotel-img{
+
+}
+.hotel{
+  margin-right: auto;
+  width:100%;
 
 }
 .hotel-about{
