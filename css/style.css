@@ -593,6 +593,10 @@ padding-bottom: 30px;
 border-bottom: solid #e5e5e5 1px;
 
 }
+.hotel:last-child{
+  margin-bottom: 0px;
+}
+
 .hotel-about{
 display: flex;
 flex-direction: column;
