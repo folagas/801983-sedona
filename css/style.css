@@ -543,9 +543,14 @@ list-style:none;
 
 }
 figure.hotels-list{
-  padding-left: 0;
+
+  margin-bottom: 30px;
 }
-.hotel-img{
+figure.hotel-img{
+  margin-left: 73px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 .hotel{
@@ -562,7 +567,8 @@ display: flex;
 .hotel-about{
 display: flex;
 flex-direction: column;
-  width: 100%;
+justify-content: space-between;
+width: 100%;
 
 }
 .hotel-details{
@@ -574,7 +580,8 @@ flex-direction: column;
 h3.hotel-about-title{
   font-size: 21px;
   color: #000000;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
 
 }
@@ -621,7 +628,7 @@ h3.hotel-about-title{
 }
 .hotel-rating{
 
-  margin: 20px;
+
   width: 20%;
 
 
