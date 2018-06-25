@@ -630,6 +630,15 @@ button.hotel-button-link:active{
   background-color: #766357;
 }
 
+button.hotel-button-action:hover{
+  background-color: #604e43;
+}
+
+button.hotel-button-action:active{
+  background-color: #503e33;
+  color: #928a85;
+}
+
 
 .hotel-rating{
 
