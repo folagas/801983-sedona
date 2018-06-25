@@ -232,7 +232,7 @@ h3.five-reasons-title{
 margin-top: 30px;
 margin-bottom: 30px;}
 
-five-reasons-normal{
+.five-reasons-normal{
   font-size: 14px;
   color: #333333;
 }
@@ -537,8 +537,8 @@ list-style:none;
 /*карточки отелей*/
 .hotels-list{
 
-  display:flex;
-  flex-direction: column;
+  /* display:flex;
+  flex-direction: column;*/
 
 
 }
@@ -552,15 +552,15 @@ figure.hotels-list{
 
 
 display: flex;
-align-items: flex-start;
-width:1200px;
-background-color: red;
-flex-wrap: nowrap;
+
+
+
+
 
 
 }
 .hotel-about{
-  background-color: blue;
+
   width: 100%;
 
 }
@@ -608,7 +608,7 @@ flex-wrap: nowrap;
 
 }
 .hotel-rating{
-  background-color: green;
+
   margin: 20px;
   width: 20%;
 
