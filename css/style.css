@@ -396,6 +396,16 @@ margin-right: 50%;
 display: inline-block;
 float:right;
 }
+
+.sorting-arrows svg:link {
+fill: #81b3d2; }
+.sorting-arrows svg:active {
+fill: #cacaca; }
+
+.sorting-arrows svg:hover {
+
+fill: #81b3d2;}
+
 .results-found{
 display: inline-block;
 margin-left: 73px;
