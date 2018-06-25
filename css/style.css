@@ -560,20 +560,32 @@ display: flex;
 
 }
 .hotel-about{
-
+display: flex;
+flex-direction: column;
   width: 100%;
 
+}
+.hotel-details{
+  display: inline-block;
 }
 .hotel-description{
 
 }
-.hotel-about-title{
+h3.hotel-about-title{
+  font-size: 21px;
+  color: #000000;
+  margin-bottom: 2px;
+
 
 }
 .hotel-type{
+  font-size: 14px;
+  color: #333333;
 
 }
 .hotel-price{
+  font-size: 14px;
+  color: #333333;
 
 }
 
