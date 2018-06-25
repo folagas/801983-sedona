@@ -557,11 +557,9 @@ figure.hotel-img{
 
 
 display: flex;
-
-
-
-
-
+margin-bottom: 30px;
+padding-bottom: 30px;
+border-bottom: solid #e5e5e5 1px;
 
 }
 .hotel-about{
@@ -593,6 +591,7 @@ h3.hotel-about-title{
 .hotel-price{
   font-size: 14px;
   color: #333333;
+  margin-left: 40px;
 
 }
 
