@@ -443,17 +443,18 @@ list-style:none;
 /*футер*/
 
 .footer-info{
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  justify-content:space-around;
   align-items: center;
   background-color: ffffff;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 20px;
+  justify-content: space-between;
 
 }
 .footer-hash{
+  padding-left: 73px;
 
 }
 .footer-social-networks{
@@ -470,10 +471,9 @@ list-style:none;
   margin-right: 20px;
 
 }
-.bottom-logo a{
+.bottom-logo{
     vertical-align:top;
-
-
+    margin-right: 100px;
 }
 .link-logo{
 
@@ -643,7 +643,7 @@ button.hotel-button-action:active{
 .hotel-rating{
 
 
-  width: 20%;
+  width: 24%;
 
 
 }
@@ -659,6 +659,8 @@ button.hotel-button-action:active{
   padding-right: 16px;
   padding-top: 6px;
   padding-bottom: 6px;
+  margin-right: 0px;
+
 
 
 }
