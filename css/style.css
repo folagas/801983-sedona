@@ -445,13 +445,21 @@ li.results-menu  {
 
 
 }
-.sorting-nav-current{
-
-
+.sorting-nav-current a:link{
+  color: #81b3d2;
 }
-.sorting-nav-plain{
-
+.sorting-nav-plain a:link{
+  color: #cacaca;
+  border-bottom: 1px dotted #81b3d2;
 }
+.sorting-nav-plain a:hover{
+  color: #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
+}
+.sorting-nav-plain a:active{
+  color: #000000;
+  border-bottom: 0px;
+  }
 
 
 .search-advanced{
