@@ -455,6 +455,7 @@ list-style:none;
 }
 .footer-hash{
   padding-left: 73px;
+  font-size: 21px;
 
 }
 .footer-social-networks{
@@ -465,12 +466,33 @@ list-style:none;
 
 
 }
-.social-element{
+.social-element1, .social-element2, .social-element3{
   list-style:none;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 7px;
+  width:46px;
+  height:46px;
+  background-color: #81b3d2;
+  background-repeat: no-repeat;
+  background-position: center center;
 
 }
+
+.social-element1{
+background-image: url("../img/twitter.svg");
+}
+.social-element2{
+background-image: url("../img/fb-icon.svg");
+
+}
+.social-element3{
+background-image: url("../img/youtube.svg");
+
+
+}
+
+
+
 .bottom-logo{
     vertical-align:top;
     margin-right: 100px;
@@ -478,6 +500,15 @@ list-style:none;
 .link-logo{
 
 
+}
+.academy-logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.made-by{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
 /*форма поиска расширенная*/
