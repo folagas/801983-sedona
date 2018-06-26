@@ -1,6 +1,5 @@
 body{
 
-  margin: 0;
   padding: 0;
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 14px;
@@ -8,6 +7,7 @@ body{
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f2f2f2;
+  min-width: 1200px;
 
 }
 
@@ -384,6 +384,7 @@ margin-right: 50%;
 
 /*секция сортировки результатов поиска отеля*/
 .results-menu{
+  display: flex;
   width: 100%;
   border-bottom: solid #e5e5e5 1px;
   margin-bottom: 30px;
@@ -393,7 +394,7 @@ margin-right: 50%;
 }
 .sorting-arrows{
 
-display: inline-block;
+display: flex;
 float:right;
 }
 
@@ -407,18 +408,20 @@ fill: #cacaca; }
 fill: #81b3d2;}
 
 .results-found{
-display: inline-block;
 margin-left: 73px;
 font-size: 21px;
 width:164px;
+padding-right: 5px;
 
 }
 .results-found-number{
 
+
 }
 .results-sorting{
-  display: inline-block;
+  display: flex;
 font-size: 12px;
+
 
 
 
@@ -429,13 +432,13 @@ li.results-menu  {
 }
 
 .results-sorting-title{
-  display: inline-block;
+  display: flex;
   margin-right: 40px;
 
 }
 .results-sorting-menu{
-  display: inline-block;
-  width:730px;
+  display: flex;
+
   font-size: 12px;
 
 
@@ -507,12 +510,12 @@ li.results-menu  {
 
 }
 .social{
+  display: flex;
 
 
 }
 .social-element1, .social-element2, .social-element3{
   list-style:none;
-  display: inline-block;
   margin-right: 7px;
   width:46px;
   height:46px;
@@ -562,15 +565,12 @@ background-image: url("../img/youtube.svg");
 }
 
 .search-field{
-  display: block;
-  max-width: 1200px;
-  height: 215px;
+
+
   background-color: #5284b3;
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center  -200px;
-  margin-left: auto;
-  margin-right: auto;
 
 }
 .search-advanced{
@@ -649,7 +649,7 @@ width: 100%;
 
 }
 .hotel-details{
-  display: inline-block;
+
 }
 .hotel-description{
 
@@ -731,7 +731,7 @@ button.hotel-button-action:active{
 }
 
 .rating-number{
-  display: inline-block;
+
   color: #666666;
   background-color: #f2f2f2f2;
   padding-left: 16px;
