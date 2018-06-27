@@ -438,6 +438,8 @@ li.results-menu  {
 }
 .results-sorting-menu{
   display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
 
   font-size: 12px;
 
