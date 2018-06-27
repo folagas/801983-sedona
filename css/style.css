@@ -749,3 +749,23 @@ button.up{
 button.down{
   background-color: inherit;
 }
+
+/* карта */
+
+.footer-map {
+
+}
+  .map {
+    height: 593px;
+    background: #e2e7d0 url('../img/map.png') no-repeat 50% 100%;
+  }
+    .map iframe {
+      height: 593px;
+      width: 100%;
+
+      border: none;
+    }
+
+  .footer-map {
+
+  }
