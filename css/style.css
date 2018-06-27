@@ -391,11 +391,12 @@ margin-right: 50%;
 
 
 
+
 }
 .sorting-arrows{
 
 display: flex;
-float:right;
+
 }
 
 .sorting-arrows svg:link {
@@ -419,7 +420,7 @@ padding-right: 5px;
 
 }
 .results-sorting{
-  display: flex;
+display: flex;
 font-size: 12px;
 
 
@@ -439,8 +440,6 @@ li.results-menu  {
 .results-sorting-menu{
   display: flex;
   align-items: flex-end;
-  margin-bottom: 30px;
-
   font-size: 12px;
 
 
