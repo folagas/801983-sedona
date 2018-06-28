@@ -44,9 +44,9 @@
 <section class="search-field">
 
   <form action="/echo"class="search-advanced" method="get" class="advanced-form">
-    <fieldset class="search-group">
-      <legend>Инфраструктура
-        </legend>
+    <div class="search-group">
+      <h4 class="filter-check-title">Инфраструктура:
+      </h4>
 
           <label class="checkbox">
             <input type="checkbox" name="swiming pool" class="standart-checkbox">
@@ -71,11 +71,11 @@
 
           </label>
 
-    </fieldset>
+    </div>
 
-    <fieldset class="search-group">
-      <legend>Тип жилья
-        </legend>
+    <div class="search-group">
+      <h4 class="filter-check-title">Тип жилья:
+      </h4>
 
           <label class="checkbox">
             <input type="checkbox" name="hotel" class="standart-checkbox">
@@ -100,12 +100,13 @@
 
           </label>
 
-    </fieldset>
+    </div>
 
     <div class="search-group">
 
         <div class="filter-range">
-              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <h4 class="filter-range-title">Стоимость в сутки (р):
+              </h4>
               <div class="price-controls">
                 <label class="min-price">от <input type="text" name="min-price" value="0"></label>
                 <label class="max-price">до <input type="text" name="max-price" value="3000"></label>

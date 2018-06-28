@@ -605,10 +605,15 @@ background-image: url("../img/youtube.svg");
 
 }
 .search-group{
-  width:30%;
+
+  width: 330px;
+  margin: 30px auto; /*для демо */
+  color: #ffffff;
 
 }
-.search-advanced-text{
+.search-advanced-text span{
+  font-weight: lighter;
+  font-size: 14px;
 
 }
 .custom-box{
@@ -616,6 +621,11 @@ background-image: url("../img/youtube.svg");
 }
 .checkbox{
   cursor:pointer;
+}
+
+.checkbox span{
+  display:block;
+  margin-bottom: 30px;
 }
 .standart-checkbox {
   display: none;
@@ -912,7 +922,7 @@ button.down{
   .scale{}
   .bar{}
 
-    .btn-transparent {
+  .btn-transparent {
   display: block;
   margin: 0 auto;
   padding: 6px 35px;
@@ -926,4 +936,24 @@ button.down{
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+}
+.btn-transparent:hover {
+  color: #000000;
+  background: #ffffff;
+}
+.filter-check-title{
+  margin-bottom: 9px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+
+
+}
+.filter-check-title h4{
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.filter-check-title {
+  margin-bottom: 24px;
 }
