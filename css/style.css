@@ -816,9 +816,23 @@ button.down{
   .price-controls{
   height: 36px;
   margin-bottom: 20px;
+  font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  position: relative;
   }
+
+  .price-controls::after {
+  content: "";
+  position: absolute;
+
+  width: 2px;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+}
 
   .price-controls label {
     display: inline-block;
@@ -842,6 +856,7 @@ button.down{
   color: inherit;
   font: inherit;
 
+
   background: none;
   border: none;
 }
@@ -852,9 +867,63 @@ button.down{
 
 
 
-  .range-controls{}
+  .range-controls{
+    position: relative;
+    margin-bottom: 32px;
+
+  }
+  .range-controls .scale {
+    height: 2px;
+
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: #ffffff;
+}
+.range-toggle {
+
+  position: absolute; /*исходная позиция ползунов */
+  top: -9px;
+
+
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%; /*скруглили квадраты */
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
   .scale{}
   .bar{}
-  .range-toggle{}
-  .range-toggle-min{}
-  .range-toggle-max{}
+
+    .btn-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
