@@ -611,7 +611,7 @@ background-image: url("../img/youtube.svg");
   color: #ffffff;
 
 }
-.search-advanced-text span{
+.search-advanced-text{
   font-weight: lighter;
   font-size: 14px;
 
@@ -950,7 +950,7 @@ button.down{
 
 }
 .filter-check-title h4{
-  font-weight: 400;
+
   font-size: 16px;
 
 }
