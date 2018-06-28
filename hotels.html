@@ -102,19 +102,33 @@
 
     </fieldset>
 
-    <fieldset class="search-group">
-      <legend>Стоимость в сутки
-        </legend>
-        <div class="from-to">
-          <span class="cost-range">от О
-          </span>
-          <span class="cost-range">до 3000
-          </span>
-        </div>
-        <div class="slider">---
-        </div>
-        <button type="submit"> Показать </button>
-    </fieldset>
+    <div class="search-group">
+
+        <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+
+              <div class="range-controls">
+                  <div class="scale">
+                      <div class="bar">
+                      </div>
+                  </div>
+                  <div class="range-toggle range-toggle-min">
+                  </div>
+                  <div class="range-toggle range-toggle-max">
+                  </div>
+
+
+              </div>
+              <button class="btn-transparent" type="submit">Показать</button>
+            </div>
+
+
+
+    </div>
 
 </section>
 

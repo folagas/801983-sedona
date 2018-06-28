@@ -605,6 +605,7 @@ background-image: url("../img/youtube.svg");
 
 }
 .search-group{
+  width:30%;
 
 }
 .search-advanced-text{
@@ -796,3 +797,64 @@ button.down{
   .footer-map {
 
   }
+
+  /* сложная форма ввода инфы */
+
+  .filter-range{
+  width: 330px;
+   margin: 30px auto; /*для демо */
+  color: #ffffff;
+
+  }
+  .filter-range-title{
+    margin-bottom: 9px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .price-controls{
+  height: 36px;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  }
+
+  .price-controls label {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+    cursor: pointer;
+  }
+
+  .price-controls .min-price,
+  .price-controls .max-price {
+    width: 90px;
+    padding-left: 65px;
+  }
+
+
+  .price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+
+  .min-price{}
+  .max-price{}
+
+
+
+  .range-controls{}
+  .scale{}
+  .bar{}
+  .range-toggle{}
+  .range-toggle-min{}
+  .range-toggle-max{}
