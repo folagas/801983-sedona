@@ -662,14 +662,14 @@ background-repeat: no-repeat;
 
 
 
-/*.custom-box{
+.custom-box{
   display:block;
   float:left;
   width:27;
   height:23;
   background-color:grey;
   margin-right:20px;
-}*/
+}
 
 .checklist{
 
