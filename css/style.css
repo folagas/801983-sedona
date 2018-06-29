@@ -622,7 +622,7 @@ background-image: url("../img/youtube.svg");
 .checkbox{
   cursor:pointer;
 }
-.checkbox-custom {
+.checkbox-custom{
 position: relative;
 width: 30px;
 height: 30px;
@@ -645,8 +645,8 @@ background-repeat: no-repeat;
 
 .standart-checkbox {
   display: none;
-
 }
+<<<<<<< HEAD
 
 .standart-checkbox:checked + .checkbox-custom::before {
 	content: "";
@@ -662,6 +662,8 @@ background-repeat: no-repeat;
 
 
 
+=======
+>>>>>>> parent of 7f91e3b... Сделала чекбоксы кастомными
 .custom-box{
   display:block;
   float:left;
@@ -670,7 +672,10 @@ background-repeat: no-repeat;
   background-color:grey;
   margin-right:20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7f91e3b... Сделала чекбоксы кастомными
 .checklist{
 
 }
