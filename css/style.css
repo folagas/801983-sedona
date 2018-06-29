@@ -622,27 +622,11 @@ background-image: url("../img/youtube.svg");
 .checkbox{
   cursor:pointer;
 }
-.checkbox-custom{
-position: relative;
-width: 30px;
-height: 30px;
-background-image: url(../img/checkbox-off.svg);
-background-repeat: no-repeat;
-}
 
-.checkbox-custom,
-.search-advanced-text {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-
-.checkbox{
+.checkbox span{
   display:block;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
-
-
 .standart-checkbox {
   display: none;
 }
