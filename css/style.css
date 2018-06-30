@@ -420,6 +420,7 @@ margin-right: auto;
 .sorting-arrows{
 
 display: flex;
+margin-left: auto;
 
 }
 
@@ -503,6 +504,7 @@ li.results-menu  {
   justify-content: flex-start;
   margin-left: 73px;
   margin-right: 73px;
+  padding-bottom: 20px;
 }
 
 
@@ -596,7 +598,7 @@ background-image: url("../img/youtube.svg");
   background-color: #5284b3;
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
-  background-position: center  -200px;
+  background-position: center  -300px;
 
 }
 .search-advanced{
