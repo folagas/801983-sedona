@@ -619,7 +619,7 @@ background-image: url("../img/youtube.svg");
 .checkbox{
   cursor:pointer;
 }
-.checkbox-custom{
+.checkbox-custom {
 position: relative;
 width: 30px;
 height: 30px;
@@ -642,15 +642,31 @@ background-repeat: no-repeat;
 
 .standart-checkbox {
   display: none;
+
+}
+
+.standart-checkbox:checked + .checkbox-custom::before {
+	content: "";
+	display: block;			 /* Делаем его блочным элементом */
+  position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-image: url(../img/checkbox-on.svg);
+  background-repeat: no-repeat;
+  border-radius: 2px;
+
 }
 .custom-box{
-  display:block;
+  :block;
   float:left;
   width:27;
   height:23;
   background-color:grey;
   margin-right:20px;
 }
+
 .checklist{
 
 }
