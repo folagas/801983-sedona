@@ -431,7 +431,8 @@ fill: #cacaca; }
 fill: #81b3d2;}
 
 .sorting-arrows {
-background-color: red;
+margin-left: auto;
+margin-right: 10px;
 
 }
 
@@ -444,7 +445,7 @@ display: inline-block;
 
 }
 .results-found-number{
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 21px;
   font-weight: 400;
 
