@@ -610,6 +610,11 @@ background-image: url("../img/youtube.svg");
   color: #ffffff;
 
 }
+.search-group:last-child{
+  margin-left:auto;
+  margin-right: 0px;
+}
+
 .search-advanced-text{
   font-weight: lighter;
   font-size: 14px;
