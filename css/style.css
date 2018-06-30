@@ -112,7 +112,6 @@ margin-bottom:0 px;
 }
 /*.site-navigation a{
 color:black;
-
 }*/
 
 .nav-left{
@@ -396,9 +395,7 @@ margin-right: auto;
     display: inline-block;
     width: 50%;
 }
-
 .buttons{
-
 }
 */
 .button-count{
@@ -622,8 +619,6 @@ background-image: url("../img/youtube.svg");
 .checkbox{
   cursor:pointer;
 }
-<<<<<<< HEAD
-=======
 .checkbox-custom {
 position: relative;
 width: 30px;
@@ -638,12 +633,13 @@ background-repeat: no-repeat;
 	vertical-align: middle;
 }
 
->>>>>>> parent of 2b865c1... Revert "Сделала чекбоксы кастомными"
 
-.checkbox span{
+.checkbox{
   display:block;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
+
+
 .standart-checkbox {
   display: none;
 
@@ -663,14 +659,14 @@ background-repeat: no-repeat;
 
 
 
-.custom-box{
+/*.custom-box{
   display:block;
   float:left;
   width:27;
   height:23;
   background-color:grey;
   margin-right:20px;
-}
+}*/
 
 .checklist{
 
