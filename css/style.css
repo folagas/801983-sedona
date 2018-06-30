@@ -409,18 +409,15 @@ margin-right: auto;
 /*секция сортировки результатов поиска отеля*/
 .results-menu{
   display: flex;
+  position: relative;
   width: 100%;
   border-bottom: solid #e5e5e5 1px;
   margin-bottom: 30px;
-
-
-
 
 }
 .sorting-arrows{
 
 display: flex;
-margin-left: auto;
 
 }
 
@@ -428,23 +425,23 @@ margin-left: auto;
 fill: #81b3d2; }
 .sorting-arrows svg:active {
 fill: #cacaca; }
-
 .sorting-arrows svg:hover {
-
 fill: #81b3d2;}
 
-.results-found{
+.results-found {
 margin-left: 73px;
 font-size: 21px;
-width:164px;
 padding-right: 5px;
 
 }
 .results-found-number{
+  margin-right: 20px;
 
 
 }
 .results-sorting{
+  position:absolute;
+  left: 230px;
 display: flex;
 font-size: 12px;
 
