@@ -500,7 +500,9 @@ li.results-menu  {
 
 .search-advanced{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: 73px;
+  margin-right: 73px;
 }
 
 
@@ -591,7 +593,6 @@ background-image: url("../img/youtube.svg");
 
 .search-field{
 
-
   background-color: #5284b3;
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
@@ -603,9 +604,9 @@ background-image: url("../img/youtube.svg");
 }
 .search-group{
 
-  width: 330px;
-  margin: 20px auto;
+  margin-top: 20px;
   margin-bottom: 10px;
+  margin-right: 120px;
   color: #ffffff;
 
 }
@@ -619,7 +620,7 @@ background-image: url("../img/youtube.svg");
 }
 .checkbox{
   cursor:pointer;
-  margin-left: 40px;
+  /*margin-left: 0px;*/
 }
 .checkbox-custom {
 position: relative;
@@ -981,7 +982,7 @@ button.down{
   background: #ffffff;
 }
 .filter-check-title{
-  margin-left: 40px;
+  margin-left: 0px;
   margin-bottom: 9px;
   font-weight: 600;
   font-size: 16px;
