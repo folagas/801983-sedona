@@ -604,7 +604,8 @@ background-image: url("../img/youtube.svg");
 .search-group{
 
   width: 330px;
-  margin: 30px auto; /*для демо */
+  margin: 20px auto;
+  margin-bottom: 10px;
   color: #ffffff;
 
 }
@@ -618,6 +619,7 @@ background-image: url("../img/youtube.svg");
 }
 .checkbox{
   cursor:pointer;
+  margin-left: 40px;
 }
 .checkbox-custom {
 position: relative;
@@ -658,6 +660,14 @@ background-repeat: no-repeat;
   border-radius: 2px;
 
 }
+
+
+
+
+
+
+
+
 .custom-box{
   :block;
   float:left;
@@ -971,6 +981,7 @@ button.down{
   background: #ffffff;
 }
 .filter-check-title{
+  margin-left: 40px;
   margin-bottom: 9px;
   font-weight: 600;
   font-size: 16px;
