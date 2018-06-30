@@ -409,15 +409,16 @@ margin-right: auto;
 /*секция сортировки результатов поиска отеля*/
 .results-menu{
   display: flex;
-  position: relative;
+  flex-wrap: nowrap;
+  /*position: relative;*/
   width: 100%;
   border-bottom: solid #e5e5e5 1px;
   margin-bottom: 30px;
   padding-bottom: 20px;
   padding-top: 5px;
   padding-left: 73px;
-  background-color: red;
   box-sizing: border-box;
+  justify-content: flex-start;
 
 }
 
@@ -428,6 +429,11 @@ fill: #81b3d2; }
 fill: #cacaca; }
 .sorting-arrows svg:hover {
 fill: #81b3d2;}
+
+.sorting-arrows {
+background-color: red;
+
+}
 
 .results-found {
 
@@ -445,8 +451,8 @@ display: inline-block;
 
 }
 .results-sorting{
-  position:absolute;
-  left: 230px;
+/*  position:absolute;
+  left: 230px;*/
 display: flex;
 font-size: 12px;
 
@@ -467,9 +473,16 @@ li.results-menu  {
 .results-sorting-menu{
   display: flex;
   font-size: 12px;
-
+  background-color: red;
 
 }
+
+.results-menu:last-child{
+
+margin-left: auto;
+}
+
+
 .results-sorting-classification{
   display: flex;
   justify-content: flex-start;
