@@ -622,6 +622,23 @@ background-image: url("../img/youtube.svg");
 .checkbox{
   cursor:pointer;
 }
+<<<<<<< HEAD
+=======
+.checkbox-custom {
+position: relative;
+width: 30px;
+height: 30px;
+background-image: url(../img/checkbox-off.svg);
+background-repeat: no-repeat;
+}
+
+.checkbox-custom,
+.search-advanced-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+>>>>>>> parent of 2b865c1... Revert "Сделала чекбоксы кастомными"
 
 .checkbox span{
   display:block;
@@ -629,8 +646,8 @@ background-image: url("../img/youtube.svg");
 }
 .standart-checkbox {
   display: none;
+
 }
-<<<<<<< HEAD
 
 .standart-checkbox:checked + .checkbox-custom::before {
 	content: "";
@@ -646,8 +663,6 @@ background-image: url("../img/youtube.svg");
 
 
 
-=======
->>>>>>> parent of 7f91e3b... Сделала чекбоксы кастомными
 .custom-box{
   display:block;
   float:left;
@@ -656,10 +671,7 @@ background-image: url("../img/youtube.svg");
   background-color:grey;
   margin-right:20px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 7f91e3b... Сделала чекбоксы кастомными
 .checklist{
 
 }
