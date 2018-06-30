@@ -416,13 +416,11 @@ margin-right: auto;
   padding-bottom: 20px;
   padding-top: 5px;
   padding-left: 73px;
+  background-color: red;
+  box-sizing: border-box;
 
 }
-.sorting-arrows{
 
-display: flex;
-
-}
 
 .sorting-arrows svg:link {
 fill: #81b3d2; }
@@ -434,7 +432,7 @@ fill: #81b3d2;}
 .results-found {
 
 font-size: 21px;
-font-weight: 400;
+font-weight: иbold;
 padding-right: 5px;
 display: inline-block;
 
@@ -468,7 +466,6 @@ li.results-menu  {
 }
 .results-sorting-menu{
   display: flex;
-  align-items: flex-end;
   font-size: 12px;
 
 
