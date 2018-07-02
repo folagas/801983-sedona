@@ -194,6 +194,7 @@ ul.five-reasons-list{
   color: #ffffff;
   width: 100%;
   text-align: center;
+  min-height: 250px;
 
 
 }
@@ -205,7 +206,6 @@ ul.five-reasons-list{
   padding: 60px 40px;
   color: #fff;
   width: 33.333333%;
-  vertical-align: top;
   box-sizing: border-box;
 
 
@@ -241,9 +241,7 @@ ul.five-reasons-list{
   text-align: center;
   background-color: #eeeeee;
   width:33.333%;
-  padding-bottom: 30px;
-
-
+margin-bottom: 30px;
 }
 
 .five-reasons-title{
@@ -254,13 +252,11 @@ ul.five-reasons-list{
   width:40%;
   margin-left:auto;
   margin-right: auto;
-  margin-top: 100px;
-
 
 }
 h3.five-reasons-title{
-margin-top: 30px;
-margin-bottom: 30px;
+margin-top: 50px;
+margin-bottom: 20px;
 
 
 }
@@ -284,7 +280,7 @@ p.five-reasons-normal{
 
 span.number-cause {
   font-size: 14px;
-  color: #333333;
+  color: #333333 ;
   margin-top: 30px;
   margin-bottom: 30px;
 
