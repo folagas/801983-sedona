@@ -325,17 +325,17 @@ object-fit: cover;
 
 }
  #house{
-   background-image: url(../img/icon-1.svg);
+   background-image: url("../img/icon-1.svg");
    background-repeat: no-repeat;
    background-position: center 40px;
 }
 #food{
-  background-image: url(../img/icon-2.svg);
+  background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
   background-position: center 40px;
 }
 #gifts{
-  background-image: url(../img/icon-3.svg);
+  background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
   background-position: center 40px;
 }
@@ -1179,9 +1179,7 @@ button.icon-plus{
         .form .form-label {
           display: inline-block;
           vertical-align: top;
-
           width: 115px;
-
           font-size: 14px;
           line-height: 41px;
         }
@@ -1192,38 +1190,32 @@ button.icon-plus{
         }
 
         .form-input-date {
-          width: 343px;
+          position: relative;
+          width: 100%;
           padding-right: 38px;
         }
 
-        .icon-calendar {
-          position: absolute;
-          right: 0;
-          top: 0;
-          color: #a9a9a9;
-          background-image: url(../img/calendar.svg);
+        .icon-calendar::after {
+          content: "";
+          background-image: url("../img/calendar.svg");
           background-repeat: no-repeat;
+          background-position: 8px center;
+          height: 38px;
           width: 38px;
+          /*background-color: red;*/
+          position: absolute;
+          right: 0px;
+          opacity: 0.3
 
         }
-          .icon-calendar::before {
-            width: 38px;
-            margin: 0;
 
-
-            font-size: 21px;
-            line-height: 38px;
-
-            text-align: center;
-          }
-
-        .form-input-date:hover + .icon-calendar {
+      /*  .form-input-date:hover + .icon-calendar {
           color: #000;
         }
 
         .form-input-date:focus + .icon-calendar {
           color: #81b3d2;
-        }
+        }*/
 
         .counter {
           display: inline-block;
