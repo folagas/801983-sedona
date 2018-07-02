@@ -152,6 +152,7 @@ margin-left: 30px;
 .presentation-subtext{
   text-align: center;
   font-size: 14px;
+  margin-bottom: 30px;
   color: #333333;
 
 }
@@ -191,8 +192,9 @@ ul.five-reasons-list{
   display: flex;
   background-color: #81b3d2;
   color: #ffffff;
-  width: 1200px;
+  width: 100%;
   text-align: center;
+
 
 }
 #first-feature{
@@ -204,6 +206,7 @@ ul.five-reasons-list{
   color: #fff;
   width: 33.333333%;
   vertical-align: top;
+  box-sizing: border-box;
 
 
 }
@@ -246,6 +249,13 @@ ul.five-reasons-list{
 .five-reasons-title{
   font-weight: bold;
   font-size: 21px;
+  line-height: 21px;
+  display: block;
+  width:40%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 100px;
+
 
 }
 h3.five-reasons-title{
@@ -265,7 +275,7 @@ p.five-reasons-normal{
   margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
-  color: #a8a8a8;
+  color: #333333;
 
 }
 
@@ -274,7 +284,7 @@ p.five-reasons-normal{
 
 span.number-cause {
   font-size: 14px;
-  color: #a8a8a8;
+  color: #333333;
   margin-top: 30px;
   margin-bottom: 30px;
 
@@ -474,7 +484,7 @@ li.results-menu  {
 .results-sorting-menu{
   display: flex;
   font-size: 12px;
-  background-color: red;
+
 
 }
 
@@ -1203,7 +1213,7 @@ button.icon-plus{
           .icon-calendar::before {
             width: 38px;
             margin: 0;
-            background-color: red;
+
 
             font-size: 21px;
             line-height: 38px;
@@ -1277,6 +1287,7 @@ button.icon-plus{
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  text-transform: inherit;
   color: #fff;
   background: #81b3d2;
   cursor: pointer;
