@@ -160,7 +160,7 @@
 <section class="search-hotel">
 
   <h2 class="visually-hidden"> Карта и поиск </h2>
-  <p class="invitation">
+  <!--- <p class="invitation">
     Заинтересовались?
   </p>
   <p class="text-hotel">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне
@@ -171,49 +171,61 @@
 
 <button type="button" class="search-hotel-title"> Поиск гостиницы в Седоне</button>
 
-  <form action="/echo"class="search" method="get">
-    <label>
-      <span class="form-labels">
-      Дата въезда
-      </span>
-        <input type="date"  name="first-date">
-    </label>
-
-      <label>
-        <span class="form-labels">
-        Дата выезда
-        </span>
-          <input type="date"  name="second-date">
-      </label>
-
-
-      <label>
-        <span class="form-labels">
-         Взрослые
-       </span>
-         <div class="button-group">
-           <button type="button" class="button-count">-</button>
-           <input type="text" name="adults">
-           <button type="button" class="button-count">+</button>
-        </div>
-
-       </label>
-
-       <label>
-         <span class="form-labels">
-          Дети
-        </span>
-          <div class="button-group">
-            <button type="button" class="button-count">-</button>
-            <input type="text" name="adults">
-            <button type="button" class="button-count">+</button>
-         </div>
-        </label>
-    <button type="submit" class="buttons">Найти</button>
-
-   </form>
 
  </div>
+ ---->
+
+
+ <div class="hotel-choice" id="hotel-choice">
+         <p class="interes">Заинтересовались?</p>
+         <p>Укажите предполагаемые даты поездки<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+         <a class="mybutton mybutton-order mybutton-toggle" href="#">Поиск гостиницы в Седоне</a>
+
+         <div class="hotel-choice-popup popup popup-hide">
+           <form class="form" action="/search" method="post">
+             <fieldset class="form-part">
+               <label class="form-label" for="date-checkin">Дата заезда:
+               </label>
+               <input class="form-input form-input-date" type="date" name="date-checkin" id="date-checkin" value="2014-04-24">
+               <span class="icon-calendar"></span>
+             </fieldset>
+
+             <fieldset class="form-part">
+               <label class="form-label" for="date-checkout">Дата выезда:
+               </label>
+               <input class="form-input form-input-date" type="date" name="date-checkout" id="date-checkout" value="2014-07-04">
+               <span class="icon-calendar"></span>
+             </fieldset>
+
+             <fieldset class="counters form-part">
+
+               <fieldset class="counter">
+
+
+                 <label class="form-label" for="counter-adult">Взрослые:
+                 </label>
+                <button class="icon-minus" type="button">-</button>
+                 <input class="form-input form-input-counter" type="text" name="counter-adult" id="counter-adult" value="2">
+                 <button class="icon-plus" type="button">+</button>
+               </fieldset>
+
+               <fieldset class="counter">
+                 <label class="form-label" for="counter-children">Дети:</label>
+                 <button class="icon-minus" type="button">-</button>
+                 <input class="form-input form-input-counter" type="text" name="counter-children" id="counter-children" value="0">
+                 <button class="icon-plus" type="button">+</button>
+               </fieldset>
+
+             </fieldset>
+
+             <button type="submit" class="mybutton"> Найти </button>
+           </form>
+         </div>
+       </div>
+
+
+
+
 
 
 </section>

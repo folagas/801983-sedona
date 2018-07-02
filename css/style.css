@@ -850,6 +850,58 @@ button.down{
   background-color: inherit;
 }
 
+
+/*рейтинг отелей*/
+.ratings-stars {
+   position: relative;
+
+   width: 110px;
+   height: 21px;
+
+   margin-bottom: 42px;
+
+   background: transparent url("../img/icon-star.svg") repeat-x;
+   background-position: right top;
+   background-size: 24px;
+ }
+   .ratings-stars::before {
+     content: "";
+
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+
+     background: #ffffff;
+   }
+
+   .ratings-stars[data-rating="5"]::before {
+     right: 110px;
+   }
+
+   .ratings-stars[data-rating="4"]::before {
+     right: 88px;
+   }
+
+   .ratings-stars[data-rating="3"]::before {
+     right: 66px;
+   }
+
+   .ratings-stars[data-rating="2"]::before {
+     right: 44px;
+   }
+
+   .ratings-stars[data-rating="1"]::before {
+     right: 22px;
+   }
+
+
+
+
+
+
+
 /* карта */
 
 .footer-map {
@@ -1018,4 +1070,240 @@ button.down{
 }
 .filter-check-title {
   margin-bottom: 24px;
+}
+
+
+
+/*препарат формы*/
+
+
+
+.form-input {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  font-size: 14px;
+  line-height: 18px;
+  height: 38px;
+  background: #f2f2f2;
+}
+
+.form-input:hover {
+  border-color: #ebebeb;
+  background: #ebebeb;
+}
+
+.form-input:focus {
+  border-color: #e5e5e5;
+  background: #ffffff;
+}
+
+.form-input.form-input-error {
+  border-color: #f00;
+}
+
+
+.hotel-choice {
+  position: relative;
+  z-index: 1;
+  width: 568px;
+  margin: 0 auto;
+  text-align: center;
+}
+  .hotel-choice .interes {
+    margin-top: 55px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    }
+
+  .hotel-choice p {
+    margin: 24px 50px;
+    line-height: 24px;
+  }
+
+  .hotel-choice .mybutton-toggle {
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: 45px;
+  padding: 30px;
+  font-size: 21px;
+  line-height: 26px;
+  }
+
+  .hotel-choice-popup {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+
+    background: #ffffff;
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,.18);
+  }
+    .form {
+      margin: 55px;
+    }
+      .form-part {
+        position: relative;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 0;
+        border: none;
+        font-size: 0;
+        text-align: left;
+      }
+
+
+button.icon-plus{
+  width: 38px;
+  height: 38px;
+  font-size: 21pt;
+  }
+
+  button.icon-minus{
+    width: 38px;
+    height: 38px;
+    font-size: 21pt;
+    }
+.icon-minus{}
+
+        .form .form-label {
+          display: inline-block;
+          vertical-align: top;
+
+          width: 115px;
+
+          font-size: 14px;
+          line-height: 41px;
+        }
+
+        .form .form-input {
+          display: inline-block;
+          vertical-align: top;
+        }
+
+        .form-input-date {
+          width: 343px;
+          padding-right: 38px;
+        }
+
+        .icon-calendar {
+          position: absolute;
+          right: 0;
+          top: 0;
+          color: #a9a9a9;
+          background-image: url(../img/calendar.svg);
+          background-repeat: no-repeat;
+          width: 38px;
+
+        }
+          .icon-calendar::before {
+            width: 38px;
+            margin: 0;
+            background-color: red;
+
+            font-size: 21px;
+            line-height: 38px;
+
+            text-align: center;
+          }
+
+        .form-input-date:hover + .icon-calendar {
+          color: #000;
+        }
+
+        .form-input-date:focus + .icon-calendar {
+          color: #81b3d2;
+        }
+
+        .counter {
+          display: inline-block;
+          vertical-align: top;
+          margin: 0;
+          padding: 0;
+          border: none;
+          font-size: 0px;
+        }
+          .form-input-counter {
+            width: 38px;
+            padding: 8px 0;
+            text-align: center;
+          }
+
+          .counter button {
+            display: inline-block;
+            vertical-align: top;
+            padding: 0;
+            border: none;
+            outline: none;
+            color: #a9a9a9;
+            background: #f2f2f2;
+          }
+
+            .counter button::before {
+              display: block;
+              width: 38px;
+              margin: 0;
+              font-size: 14px;
+              line-height: 38px;
+              text-align: center;
+            }
+
+          .counter .form-label[for="counter-children"] {
+            width: 65px;
+            margin-left: 50px;
+          }
+
+      .form .mybutton {
+        width: 100%;
+        margin-top: 24px;
+        padding: 16px;
+        font-size: 21px;
+        line-height: 26px;
+      }
+
+      /* кнопки*/
+  .mybutton {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 17px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #81b3d2;
+  cursor: pointer;
+}
+.mybutton:link {
+    color: white;
+}
+.mybutton:hover {
+  background: #669ec0;
+  color: white;
+}
+
+.mybutton:active {
+  color: rgba(255,255,255,.3);
+  background: #5496bd;
+  color: white;
+}
+
+
+.mybutton-order {
+  background: #766357;
+}
+
+.mybutton-order:hover {
+  background: #604e43;
+}
+
+.mybutton-order:active {
+  background: #503e33;
 }
