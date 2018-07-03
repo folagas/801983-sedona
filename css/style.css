@@ -1311,3 +1311,7 @@ button.icon-plus{
 .mybutton-order:active {
   background: #503e33;
 }
+
+.modal-show{
+  display:block;
+}
