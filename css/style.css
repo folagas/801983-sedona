@@ -7,7 +7,7 @@ body{
   font-weight: 400;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  min-width: 1200px;
+
 
 }
 
@@ -116,7 +116,7 @@ button{
 
 .container{
   background-color: #ffffff;
-  max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 0px 8px rgba(122,122,122,0.2);
@@ -126,33 +126,31 @@ button{
 .presentation-container{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
   width:600px;
 
 }
 .presentation-text{
   text-align: center;
   font-size: 21px;
+  line-height: 26px;
   font-weight: bold;
 
 }
 .presentation-subtext{
   text-align: center;
   font-size: 14px;
-  margin-bottom: 30px;
   color: #333333;
 
 }
 .intro {
-  display: block;
-  max-width: 1200px;
+
   height: 510px;
   background-color: #5284b3;
   background-image: url("../img/welcome.png"),
                     url("../img/white_mask.svg"),
                     url("../img/sedona_background1200.jpg");
   background-repeat: no-repeat;
-  background-position: center center, bottom center, center -80px;
+  background-position: center 77px, bottom center, center -82px;
   margin-left: auto;
   margin-right: auto;
 
