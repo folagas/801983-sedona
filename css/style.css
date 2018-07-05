@@ -1149,15 +1149,6 @@ button.down{
     box-shadow: 0 8px 15px 0 rgba(0,0,0,.18);
   }
 
-  .popup-hide{
-display: none;
-
-  }
-
-  .popup-show{
-display: block;
-
-  }
     .form {
       margin: 55px;
     }
@@ -1323,3 +1314,14 @@ button.icon-plus{
 .modal-show{
   display:block;
 }
+
+
+  .popup-hide{
+display: none;
+
+  }
+
+  .popup-show{
+display: block;
+
+  }
