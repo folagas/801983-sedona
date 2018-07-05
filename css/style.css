@@ -130,7 +130,7 @@ button{
   margin-bottom: 0px;
   width:600px;
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 48px;
 
 }
 p.presentation-text {
@@ -193,7 +193,7 @@ ul.five-reasons-list{
   color: #ffffff;
   width: 100%;
   text-align: center;
-  min-height: 250px;
+  min-height: 256px;
   padding: 0px;
 
 
@@ -213,6 +213,10 @@ ul.five-reasons-list{
   width: 66.666666%;
   overflow: hidden;
   position: relative;
+  background-image: url("../img/feature1.jpg");
+  background-size: cover;
+  background-position: 0px -78px;
+  background-repeat: no-repeat;
   flex-grow: 1;
   flex-shrink: 0;
 
@@ -313,6 +317,8 @@ object-fit: cover;
 .five-reasons-subcategory{
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 
 }
 .five-reasons-subelement{
@@ -320,6 +326,7 @@ object-fit: cover;
   padding-bottom: 20px;
 
 }
+
  .house{
    background-image: url("../img/icon-1.svg");
    background-repeat: no-repeat;
