@@ -173,17 +173,17 @@ p.presentation-subtext{
 /* Основная часть, 5 причин*/
 
 .five-reasons-container{
-  max-width: 1200px;
 
 }
 
 .five-reasons-list{
   display:flex;
-  flex-direction:row;
   flex-wrap: wrap;
   list-style: none;
 }
 ul.five-reasons-list{
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -194,26 +194,28 @@ ul.five-reasons-list{
   width: 100%;
   text-align: center;
   min-height: 250px;
+  padding: 0px;
 
 
 }
-#first-feature{
+.first-feature{
   order:-2;
 }
 
 .container-text-photo-sedona{
-  padding: 60px 40px;
+  box-sizing: border-box;
   color: #fff;
   width: 33.333333%;
-  box-sizing: border-box;
-
 
 }
+
 .container-photo-sedona{
   width: 66.666666%;
   overflow: hidden;
   position: relative;
   flex-grow: 1;
+  flex-shrink: 0;
+
 
 }
 
@@ -247,32 +249,28 @@ margin-bottom: 30px;
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
-  display: block;
   width:40%;
   margin-left:auto;
   margin-right: auto;
 
 }
 h3.five-reasons-title{
-margin-top: 50px;
 margin-bottom: 20px;
+margin-top: 0px;
 
-
-}
-
-.five-reasons-normal{
-  font-size: 14px;
 
 }
 
 p.five-reasons-normal{
-
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: 14px;
+  padding:0;
+  margin:0;
   color: #333333;
 
+
 }
+
+
 
 
 
@@ -280,7 +278,6 @@ p.five-reasons-normal{
 span.number-cause {
   font-size: 14px;
   color: #333333 ;
-  margin-top: 30px;
   margin-bottom: 30px;
 
 }
@@ -323,17 +320,17 @@ object-fit: cover;
   padding-bottom: 20px;
 
 }
- #house{
+ .house{
    background-image: url("../img/icon-1.svg");
    background-repeat: no-repeat;
    background-position: center 40px;
 }
-#food{
+.food{
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
   background-position: center 40px;
 }
-#gifts{
+.gifts{
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
   background-position: center 40px;
