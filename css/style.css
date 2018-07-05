@@ -32,7 +32,6 @@ a:active{
 
 ul, li {
 margin: 0;
-padding: 0;
 }
 
 button{
@@ -67,62 +66,50 @@ button{
 
 }
 .main-navigation {
-  display: flex;
   position: relative;
   font-size: 14px;
   font-weight: 700;
   background-color: #ffffff;
-}
 
+}
 
 .main-logo{
   position: absolute;
   left: 50%;
   margin-left: -69px;
   top: 0px;
+  }
+.site-navigation {
+    display: flex;
 
-
-
-}
-.site-navigation li{
-    display: inline-block;
-    /* flex-wrap: nowrap;
-    justify-content: space-between;*/
     list-style:none;
-    padding-left: 15px;
-    padding-right:15px;
-    padding-top:10px;
-    padding-bottom:10px;
-
-
-}
-.site-navigation li:nth-child(2){
-margin-right: 25%;
-
-}
-
-.site-navigation:nth-child(3){
-
+    padding-left: 6%;
+    padding-right:6%;
+    padding-top:15px;
+    padding-bottom:15px;
 
 }
 
 .site-navigation li{
-margin-bottom:0 px;
+  list-style: none;
+  width: 20%;
 
 }
-/*.site-navigation a{
-color:black;
-}*/
 
-.nav-left{
-float: left;
-margin-left: 72px;
-margin-right: 30px;
+
+.nav-left {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 0;
+
+
 }
-.nav-right{
-float:right;
-margin-right: 72px;
-margin-left: 30px;
+.nav-right {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+
+
 
 }
 /* Основная часть, вводная инфа*/
