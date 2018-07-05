@@ -130,6 +130,7 @@ button{
   margin-bottom: 0px;
   width:600px;
   padding-top: 60px;
+  padding-bottom: 50px;
 
 }
 p.presentation-text {
@@ -137,7 +138,7 @@ p.presentation-text {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 28px;
   padding: 0;
 }
 
