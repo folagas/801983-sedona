@@ -202,7 +202,11 @@ ul.five-reasons-list{
   order:-2;
 }
 
-.container-text-photo-sedona{
+.container-text-foto-sedona{
+  display: block;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
   box-sizing: border-box;
   color: #fff;
   width: 33.333333%;
@@ -213,14 +217,18 @@ ul.five-reasons-list{
   width: 66.666666%;
   overflow: hidden;
   position: relative;
-  background-image: url("../img/feature1.jpg");
   background-size: cover;
   background-position: 0px -78px;
   background-repeat: no-repeat;
   flex-grow: 1;
   flex-shrink: 0;
+}
+.container1{
+  background-image: url(../img/feature1.jpg);
+}
 
-
+.container2{
+  background-image: url(../img/feature2.jpg);
 }
 
 .container-photo-sedona img {
@@ -253,7 +261,7 @@ margin-bottom: 30px;
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
-  width:40%;
+  width:60%;
   margin-left:auto;
   margin-right: auto;
 
@@ -267,6 +275,7 @@ margin-top: 0px;
 
 p.five-reasons-normal{
   font-size: 14px;
+  line-height: 21px;
   padding:0;
   margin:0;
   color: #333333;
@@ -282,7 +291,8 @@ p.five-reasons-normal{
 span.number-cause {
   font-size: 14px;
   color: #333333 ;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
+  display: block;
 
 }
 
@@ -322,25 +332,28 @@ object-fit: cover;
 
 }
 .five-reasons-subelement{
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 162px;
+  padding-bottom: 88px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width:33.33333%;
 
 }
 
  .house{
    background-image: url("../img/icon-1.svg");
    background-repeat: no-repeat;
-   background-position: center 40px;
+   background-position: center 60px;
 }
 .food{
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
-  background-position: center 40px;
+  background-position: center 62px;
 }
 .gifts{
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
-  background-position: center 40px;
+  background-position: center 56px;
 }
 
 
