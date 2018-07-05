@@ -1,3 +1,12 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body{
 
   padding: 0;
@@ -253,16 +262,24 @@ ul.five-reasons-list{
 .five-reasons-element-2{
   text-align: center;
   background-color: #eeeeee;
-  width:33.333%;
-margin-bottom: 30px;
+  width:33.3333333%;
+  padding-top:46px;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-bottom: 66px;
+  box-sizing: border-box;
+  margin: 0;
 }
 
+
 .five-reasons-title{
+  display: block;
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
   width:60%;
-  margin-left:auto;
+  padding:0;
+  margin-left: auto;
   margin-right: auto;
 
 }
@@ -333,7 +350,7 @@ object-fit: cover;
 }
 .five-reasons-subelement{
   padding-top: 162px;
-  padding-bottom: 88px;
+  padding-bottom: 84px;
   padding-left: 40px;
   padding-right: 40px;
   width:33.33333%;
@@ -1132,18 +1149,25 @@ button.down{
   width: 568px;
   margin: 0 auto;
   text-align: center;
+  padding: 60px 0 20px;
 }
   .hotel-choice .interes {
-    margin-top: 55px;
-    margin-bottom: 30px;
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
     }
+    p.interes {
+      padding: 0;
+      margin: 0;
+
+    }
+    p.interes-inform{
+      padding: 0;
+      margin: 0;
+    }
 
   .hotel-choice p {
-    margin: 24px 50px;
-    line-height: 24px;
+      line-height: 24px;
   }
 
   .hotel-choice .mybutton-toggle {
