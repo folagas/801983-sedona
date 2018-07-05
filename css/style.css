@@ -3,7 +3,7 @@ body{
   padding: 0;
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 400;
   text-transform: uppercase;
   background-color: #f2f2f2;
@@ -67,18 +67,18 @@ button{
 
 }
 .main-navigation {
+  display: flex;
+  position: relative;
   font-size: 14px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  font-weight: 700;
   background-color: #ffffff;
-
-
 }
+
+
 .main-logo{
   position: absolute;
   left: 50%;
-  margin-left: -70px;
+  margin-left: -69px;
   top: 0px;
 
 
