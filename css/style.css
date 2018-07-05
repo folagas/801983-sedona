@@ -126,22 +126,35 @@ button{
 .presentation-container{
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width:600px;
+  padding-top: 60px;
 
 }
-.presentation-text{
+p.presentation-text {
   text-align: center;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-
+  margin: 0;
+  padding: 0;
 }
-.presentation-subtext{
+
+p.presentation-subtext{
   text-align: center;
   font-size: 14px;
   color: #333333;
-
+  margin: 0;
+  padding: 0;
 }
+
+.presentation-subtext p{
+  margin: 0;
+  padding: 0;
+}
+
+
 .intro {
 
   height: 510px;
