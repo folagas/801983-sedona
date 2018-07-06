@@ -786,11 +786,11 @@ figure.hotels-list{
   margin-bottom: 30px;
 }
 figure.hotel-img{
-  margin-left: 73px;
-  margin-right: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+margin: 0;
 
+}
+img.hotel-img{
+  display: block;
 }
 .hotel{
 
@@ -798,6 +798,8 @@ figure.hotel-img{
 display: flex;
 padding-top: 30px;
 padding-bottom: 30px;
+padding-left: 73px;
+padding-right: 73px;
 border-bottom: solid #e5e5e5 1px;
 
 }
@@ -810,6 +812,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 width: 100%;
+padding-left: 20px;
 
 }
 .hotel-details{
