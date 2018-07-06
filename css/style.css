@@ -1284,6 +1284,7 @@ button.icon-plus{
 
         .input-calendar{
           display: flex;
+          position: relative;
 
         }
 
@@ -1298,30 +1299,33 @@ button.icon-plus{
 
         }
         */
+.input-calendar button{
+  background-color: transparent;
 
+}
         button.icon-calendar{
           margin: 0;
           padding: 0;
           border: 0;
-          background-color: none;
           background-image: url("../img/calendar.svg");
           background-repeat: no-repeat;
-          background-position: 8px center;
+          background-position: center center;
           height: 38px;
           width: 38px;
           /*background-color: red;*/
           position: absolute;
           right: 0px;
-          opacity: 0.3
-        }
 
-      /*  .form-input-date:hover + .icon-calendar {
-          color: #000;
         }
-
-        .form-input-date:focus + .icon-calendar {
-          color: #81b3d2;
-        }*/
+  button.icon-calendar:hover{
+  background-color: transparent;
+  background-image: url("../img/calendar_hover.svg");
+    }
+  button.icon-calendar:active{
+  background-color: transparent;
+  background-image: url("../img/calendar_active.svg");
+  fill:red;
+  }
 
         .counter {
           vertical-align: top;
