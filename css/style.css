@@ -1227,7 +1227,17 @@ button.down{
     .form {
 
     }
+    .counters{
+      display: flex;
+      justify-content: space-between;
+    }
+    .counter-adult-children{
+    display: flex;
+    flex-grow: 1;
+
+    }
       .form-part {
+        display: flex;
         position: relative;
         margin: 0;
         margin-bottom: 30px;
@@ -1248,19 +1258,21 @@ button.icon-plus{
     width: 38px;
     height: 38px;
     font-size: 21pt;
-    }
-.icon-minus{}
 
-        .form .form-label {
-          display: inline-block;
+    }
+.icon-minus a:hover{
+  background-color: #ffffff;
+}
+
+        .form-label {
           vertical-align: top;
           width: 115px;
           font-size: 14px;
           line-height: 41px;
         }
 
-        .form .form-input {
-          display: inline-block;
+        .form-input {
+          display: flex;
           vertical-align: top;
         }
 
@@ -1293,7 +1305,6 @@ button.icon-plus{
         }*/
 
         .counter {
-          display: inline-block;
           vertical-align: top;
           margin: 0;
           padding: 0;
