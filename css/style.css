@@ -573,12 +573,13 @@ margin-left: auto;
 /*футер*/
 
 .footer-info{
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   align-items: center;
-  background-color: ffffff;
-  padding 36px 0;
+  background: rgba(255,255,255,0.8);
+  padding-top: 36px;
+  padding-bottom: 36px;
+  position: relative;
+  margin-top: -118px;
 }
 .footer-hash{
   padding-left: 73px;
