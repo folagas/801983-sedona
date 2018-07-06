@@ -1283,11 +1283,27 @@ button.icon-plus{
         }
 
         .input-calendar{
+          display: flex;
 
         }
 
-        .icon-calendar::after {
+      /*  .icon-calendar::after {
           content: "";
+          background-position: 0px center;
+          height: 38px;
+          width: 38px;
+          background-color: red;
+          right: 0px;
+          opacity: 0.3
+
+        }
+        */
+
+        button.icon-calendar{
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background-color: none;
           background-image: url("../img/calendar.svg");
           background-repeat: no-repeat;
           background-position: 8px center;
@@ -1297,14 +1313,6 @@ button.icon-plus{
           position: absolute;
           right: 0px;
           opacity: 0.3
-
-        }
-        button.icon-calendar{
-          margin: 0;
-          padding: 0;
-          background-color: 0;
-          border: 0;
-          background-image: url("../img/calendar.svg");
         }
 
       /*  .form-input-date:hover + .icon-calendar {
@@ -1329,7 +1337,6 @@ button.icon-plus{
           }
 
           .counter button {
-            display: inline-block;
             vertical-align: top;
             padding: 0;
             border: none;
@@ -1346,6 +1353,20 @@ button.icon-plus{
               line-height: 38px;
               text-align: center;
             }
+
+            .counter button:hover {
+              color: black;
+              background: #ebebeb;
+            }
+
+            .counter button:active {
+              color: #81b3d2;
+              background: #ebebeb;
+            }
+
+
+
+
 
           .counter .form-label[for="counter-children"] {
             width: 65px;
