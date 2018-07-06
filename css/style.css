@@ -582,6 +582,13 @@ margin-left: auto;
   margin-top: -118px;
   justify-content: space-between;
 }
+
+.footer-info-inner{
+  margin-top: 0px;
+
+}
+
+
 .footer-hash{
   font-size: 21px;
   width: 33.33333%;
