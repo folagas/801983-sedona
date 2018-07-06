@@ -562,19 +562,12 @@ margin-left: auto;
 
 
 
-
-
-
-
-
-
-
 /*футер*/
 
 .footer-info{
   display: flex;
   align-items: center;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.9);
   padding-top: 36px;
   padding-bottom: 36px;
   position: relative;
