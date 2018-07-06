@@ -1194,7 +1194,7 @@ button.down{
   display: block;
   position: relative;
   z-index: 2;
-  margin-top: 45px;
+  padding-top: 45px;
   padding: 30px;
   font-size: 21px;
   line-height: 26px;
@@ -1317,7 +1317,6 @@ button.icon-plus{
 
       .form .mybutton {
         width: 100%;
-        margin-top: 24px;
         padding: 16px;
         font-size: 21px;
         line-height: 26px;
