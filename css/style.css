@@ -1295,6 +1295,11 @@ button.icon-plus{
           opacity: 0.3
 
         }
+        button.icon-calendar{
+          margin: 0;
+          padding: 0;
+          background-color: 0;
+        }
 
       /*  .form-input-date:hover + .icon-calendar {
           color: #000;
