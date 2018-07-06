@@ -1282,6 +1282,10 @@ button.icon-plus{
           padding-right: 38px;
         }
 
+        .input-calendar{
+
+        }
+
         .icon-calendar::after {
           content: "";
           background-image: url("../img/calendar.svg");
@@ -1299,6 +1303,8 @@ button.icon-plus{
           margin: 0;
           padding: 0;
           background-color: 0;
+          border: 0;
+          background-image: url("../img/calendar.svg");
         }
 
       /*  .form-input-date:hover + .icon-calendar {
