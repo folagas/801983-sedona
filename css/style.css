@@ -796,9 +796,10 @@ figure.hotels-list{
 }
 figure.hotel-img{
 margin: 0;
+padding: 0;
 
 }
-img.hotel-img{
+.hotel-img img{
   display: block;
 }
 .hotel{
@@ -898,8 +899,6 @@ button.hotel-button-action:active{
 .hotel-rating{
 
 
-  width: 24%;
-
 
 }
 .stars{
@@ -907,7 +906,6 @@ button.hotel-button-action:active{
 }
 
 .rating-number{
-
   color: #666666;
   background-color: #f2f2f2f2;
   padding-left: 16px;
