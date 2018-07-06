@@ -578,10 +578,7 @@ margin-left: auto;
   display: flex;
   align-items: center;
   background-color: ffffff;
-  max-width: 1200px;
-  padding-top: 20px;
-  justify-content: space-between;
-
+  padding 36px 0;
 }
 .footer-hash{
   padding-left: 73px;
@@ -595,11 +592,26 @@ margin-left: auto;
 .social{
   display: flex;
 
-
 }
+.social li{
+
+  margin: 0 3px;
+}
+
+.social-element1 a,
+.social-element2 a,
+.social-element3 a{
+  display: block;
+  width:46px;
+  height:46px;
+  background-color: #81b3d2;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
 .social-element1, .social-element2, .social-element3{
   list-style:none;
-  margin-right: 7px;
   width:46px;
   height:46px;
   background-color: #81b3d2;
@@ -608,14 +620,14 @@ margin-left: auto;
 
 }
 
-.social-element1{
+.social-element1 a{
 background-image: url("../img/twitter.svg");
 }
-.social-element2{
+.social-element2 a{
 background-image: url("../img/fb-icon.svg");
 
 }
-.social-element3{
+.social-element3 a{
 background-image: url("../img/youtube.svg");
 
 
