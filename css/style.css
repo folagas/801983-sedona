@@ -580,18 +580,21 @@ margin-left: auto;
   padding-bottom: 36px;
   position: relative;
   margin-top: -118px;
+  justify-content: space-between;
 }
 .footer-hash{
-  padding-left: 73px;
   font-size: 21px;
+  width: 33.33333%;
+  text-align: center;
 
 }
 .footer-social-networks{
-
+width: 33.3333%
 
 }
 .social{
   display: flex;
+  justify-content: center;
 
 }
 .social li{
@@ -637,8 +640,9 @@ background-image: url("../img/youtube.svg");
 
 
 .bottom-logo{
-    vertical-align:top;
-    margin-right: 100px;
+
+  width: 33.333333%;
+  text-align: center;
 }
 .link-logo{
 
