@@ -608,6 +608,11 @@ width: 33.3333%
   flex-wrap: wrap;
 
 }
+ul.social{
+
+  margin: 0px;
+  padding: 0px;
+}
 .social li{
 
   margin: 0 3px;
@@ -1178,7 +1183,7 @@ button.down{
   width: 568px;
   margin: 0 auto;
   text-align: center;
-  padding: 60px 0 0;
+  padding: 55px 0 0;
 }
   .hotel-choice .interes {
     font-size: 30px;
@@ -1187,12 +1192,12 @@ button.down{
     }
     p.interes {
       padding: 0;
-      margin: 0 0 40px;
-
+      margin: 0;
+      margin-bottom: 24px;
     }
     p.interes-inform{
       padding: 0;
-      margin: 0 0 55px 0;
+      margin: 0 0 44px 0;
     }
 
   .hotel-choice p {
