@@ -467,12 +467,18 @@ margin-right: auto;
   padding: 30px 73px;
 
 }
+button.up{
+fill: #cacaca;
+}
 
+button.down{
+fill: #cacaca;
+}
 
 .sorting-arrows svg:link {
-fill: #81b3d2; }
-.sorting-arrows svg:active {
 fill: #cacaca; }
+.sorting-arrows svg:active {
+fill: #000000; }
 .sorting-arrows svg:hover {
 fill: #81b3d2;}
 
