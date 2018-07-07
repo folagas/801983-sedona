@@ -481,7 +481,7 @@ fill: #81b3d2;}
 
 .sorting-arrows {
 margin-left: auto;
-margin-right: 10px;
+
 
 }
 
@@ -535,6 +535,7 @@ margin-left: auto;
 
 .results-sorting-classification{
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   list-style:none;
 
@@ -795,8 +796,11 @@ figure.hotels-list{
   margin-bottom: 30px;
 }
 figure.hotel-img{
-  position: absolute;
-margin: 0;
+position: absolute;
+margin-left: 0;
+margin-right: 30px;
+margin-top: 0;
+margin-bottom: 0;
 padding: 0;
 
 }
