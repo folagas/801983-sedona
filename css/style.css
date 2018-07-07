@@ -681,7 +681,7 @@ background-image: url("../img/youtube.svg");
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center  -300px;
-  padding: 28px 73px;
+  padding: 28px 73px 12px;
   margin: 0;
 
 }
@@ -691,7 +691,7 @@ background-image: url("../img/youtube.svg");
 
 }
 .search-group{
-width: 250px;
+width: 255px;
   color: #ffffff;
 
 }
@@ -729,7 +729,7 @@ background-repeat: no-repeat;
 
 .checkbox{
   display:block;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 
