@@ -487,13 +487,15 @@ display: flex;
 flex-wrap: wrap;
 font-size: 21px;
 width: 140px;
+font-weight: bold;
 
 
 }
 .results-found-number{
 
   font-size: 21px;
-  font-weight: 400;
+
+  margin-left: 5px;
 
 
 }
