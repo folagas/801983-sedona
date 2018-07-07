@@ -675,10 +675,21 @@ background-image: url("../img/youtube.svg");
   width: 33.333333%;
   text-align: center;
 }
-.link-logo{
-
-
+.link-logo svg{
+  width:115px;
+  height:41px;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
+  display: inline-block;
 }
+a.link-logo:hover{
+  fill:#81b3d2;
+}
+a.link-logo:active{
+  fill:#cacaca;
+}
+
 .academy-logo{
   display: inline-block;
   vertical-align: middle;
