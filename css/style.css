@@ -460,14 +460,11 @@ margin-right: auto;
 .results-menu{
   display: flex;
   flex-wrap: nowrap;
-  /*position: relative;*/
   width: 100%;
   border-bottom: solid #e5e5e5 1px;
-  padding-bottom: 20px;
-  padding-top: 5px;
-  padding-left: 73px;
   box-sizing: border-box;
   justify-content: flex-start;
+  padding: 30px 73px;
 
 }
 
@@ -487,13 +484,14 @@ margin-left: auto;
 
 .results-found {
 display: flex;
+flex-wrap: wrap;
 font-size: 21px;
-padding-right: 5px;
+width: 140px;
 
 
 }
 .results-found-number{
-  margin-right: 40px;
+
   font-size: 21px;
   font-weight: 400;
 
@@ -503,6 +501,7 @@ padding-right: 5px;
 display: flex;
 font-size: 12px;
  max-width: 800px;
+padding-left: 22px;
 
 
 
