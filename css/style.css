@@ -681,7 +681,7 @@ background-image: url("../img/youtube.svg");
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center  -300px;
-  padding: 40px 73px;
+  padding: 33px 73px;
   margin: 0;
 
 }
@@ -697,6 +697,7 @@ width: 240px;
 }
 .search-group-filter{
   margin-left: auto;
+  margin-top: 0px;
   width: 330px;
 
 }
@@ -707,9 +708,7 @@ width: 240px;
   font-size: 14px;
 
 }
-.custom-box{
 
-}
 .checkbox{
   cursor:pointer;
   /*margin-left: 0px;*/
@@ -998,10 +997,13 @@ button.down{
 
   .filter-range-title {
     margin-bottom: 9px;
-
-    font-weight: 600;
+    margin-top: 0px;
+    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
+  }
+  .filter-range-title h4{
+    margin: 0px;
   }
 
   .price-controls {
@@ -1031,12 +1033,13 @@ button.down{
     line-height: 38px;
     vertical-align: top;
     cursor: pointer;
+    width:330px;
       }
 
   .price-controls .min-price,
   .price-controls .max-price {
     width: 90px;
-    padding-left: 65px;
+    padding-left: 62px;
     padding-right: 25px;
 
   }
@@ -1049,7 +1052,7 @@ button.down{
     background: none;
     border: none;
     /*inline*/
-    display: inline-block;
+    /*display: inline-block;*/
   }
 
   .range-controls {
@@ -1121,21 +1124,12 @@ button.down{
 
 
 .filter-check-title{
-  margin-left: 0px;
-  margin-bottom: 9px;
-  font-weight: 600;
+  margin: 0px;
   font-size: 16px;
-  line-height: 21px;
-
 
 }
 .filter-check-title h4{
-
-  font-size: 16px;
-
-}
-.filter-check-title {
-  margin-bottom: 24px;
+  margin: 0px;
 }
 
 
