@@ -486,11 +486,10 @@ margin-left: auto;
 }
 
 .results-found {
-
+display: flex;
 font-size: 21px;
-font-weight: иbold;
 padding-right: 5px;
-display: inline-block;
+
 
 }
 .results-found-number{
@@ -501,10 +500,9 @@ display: inline-block;
 
 }
 .results-sorting{
-/*  position:absolute;
-  left: 230px;*/
 display: flex;
 font-size: 12px;
+ max-width: 800px;
 
 
 
