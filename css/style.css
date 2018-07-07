@@ -469,18 +469,29 @@ margin-right: auto;
 }
 button.up{
 fill: #cacaca;
+margin:0;
+padding:0 4px;
+cursor: pointer;
 }
 
 button.down{
 fill: #cacaca;
+margin:0;
+padding: 0;
+cursor: pointer;
+}
+button.arrow-button-current{
+fill: #81b3d2;
 }
 
 .sorting-arrows svg:link {
 fill: #cacaca; }
+.sorting-arrows svg:visited {
+fill: #cacaca; }
 .sorting-arrows svg:active {
-fill: #000000; }
+fill: #81b3d2; }
 .sorting-arrows svg:hover {
-fill: #81b3d2;}
+fill: #000000;}
 
 .sorting-arrows {
 margin-left: auto;
