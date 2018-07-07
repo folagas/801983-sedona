@@ -691,10 +691,16 @@ background-image: url("../img/youtube.svg");
 
 }
 .search-group{
-  width: 240px;
+width: 240px;
   color: #ffffff;
 
 }
+.search-group-filter{
+  margin-left: auto;
+  width: 330px;
+
+}
+
 
 .search-advanced-text{
   font-weight: 400;
