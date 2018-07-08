@@ -317,18 +317,29 @@ span.number-cause {
 
 .five-reasons-subcategory {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
+ul.five-reasons-subcategory {
+  margin: 0;
+  padding: 0;
+}
+.five-reasons-subcategory li{
+  margin: 0;
+  padding: 0;
+}
 
-.five-reasons-subelement {
+li.five-reasons-subelement {
+
   padding-top: 162px;
   padding-bottom: 84px;
   padding-left: 0px;
   padding-right: 0px;
   flex-grow: 1;
+  width:33.3333%
 }
 
 .house {
