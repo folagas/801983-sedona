@@ -948,7 +948,7 @@ a.link-logo:active {
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center -300px;
-  padding: 28px 73px 12px;
+  padding: 26px 72px 12px;
   margin: 0;
 }
 
@@ -960,6 +960,7 @@ a.link-logo:active {
 .search-group {
   width: 255px;
   color: #ffffff;
+  margin-left: 0;
 }
 
 .search-group-filter {
@@ -1077,7 +1078,7 @@ h3.hotel-about-title {
 .hotel-type {
   font-size: 14px;
   color: #333333;
-  width: 128px;
+  width: 118px;
 }
 
 .hotel-price {
