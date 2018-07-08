@@ -1064,19 +1064,20 @@ figure.hotel-img {
 .hotel-details {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 3px;
 }
 
 h3.hotel-about-title {
   font-size: 21px;
   color: #000000;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
   margin-top: 0px;
 }
 
 .hotel-type {
   font-size: 14px;
   color: #333333;
-  width: 124px;
+  width: 128px;
 }
 
 .hotel-price {
