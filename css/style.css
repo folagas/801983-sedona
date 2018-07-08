@@ -667,6 +667,17 @@ background-image: url("../img/youtube.svg");
 
 
 }
+.social-element1 a:hover,
+.social-element2 a:hover,
+.social-element3 a:hover{
+  background-color: #669ec0;
+}
+
+.social-element1 a:active,
+.social-element2 a:active,
+.social-element3 a:active{
+  background-color: #5496bd;
+}
 
 
 
