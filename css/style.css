@@ -96,11 +96,7 @@ button {
 
 .site-navigation li {
   list-style: none;
-  width: 20%;
-}
-.nav-right-logo li{
-  /*margin-left: auto;*/
-  width:8%;
+  width: 240px;
 }
 
 .nav-left {
@@ -113,6 +109,9 @@ button {
   text-align: right;
   /*margin-left: auto;*/
   margin-right: 0;
+}
+.nav-right:nth-child(3) {
+  margin-left: auto;
 }
 
 .navigation-active a {
