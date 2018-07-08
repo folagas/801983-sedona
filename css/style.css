@@ -501,7 +501,7 @@ p.interes-inform {
   display: flex;
   position: relative;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   padding: 0;
   border: none;
   font-size: 0;
@@ -581,6 +581,7 @@ button.icon-calendar:active {
 .counter {
   vertical-align: top;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   border: none;
   font-size: 0px;
@@ -630,6 +631,7 @@ button.icon-calendar:active {
   padding: 16px;
   font-size: 21px;
   line-height: 26px;
+
 }
 
 /* кнопки*/
