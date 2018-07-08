@@ -1005,7 +1005,7 @@ figure.hotels-list {
 }
 
 figure.hotel-img {
-  position: absolute;
+
   margin-left: 0;
   margin-right: 30px;
   margin-top: 0;
@@ -1024,7 +1024,7 @@ figure.hotel-img {
   padding-left: 73px;
   padding-right: 73px;
   border-bottom: solid #e5e5e5 1px;
-  position: relative;
+
 }
 
 .hotel:last-child {
@@ -1036,7 +1036,7 @@ figure.hotel-img {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  padding-left: 164px;
+
 }
 
 .hotel-details {
