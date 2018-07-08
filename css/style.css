@@ -629,7 +629,7 @@ ul.social{
   padding: 0px;
 }
 .social li{
-
+background-color:#81b3d2;
   margin: 0 3px;
 }
 
@@ -639,7 +639,7 @@ ul.social{
   display: block;
   width:46px;
   height:46px;
-  background-color: #81b3d2;
+  /*background-color: #81b3d2;*/
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -649,7 +649,7 @@ ul.social{
   list-style:none;
   width:46px;
   height:46px;
-  background-color: #81b3d2;
+  /*background-color: #81b3d2;*/
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -667,16 +667,23 @@ background-image: url("../img/youtube.svg");
 
 
 }
-.social-element1 a:hover,
+/*.social-element1 a:hover,
 .social-element2 a:hover,
 .social-element3 a:hover{
   background-color: #669ec0;
+}*/
+
+.social li:hover{
+  background-color: #669ec0;
 }
+.social li:active{
+  background-color: #5496bd;
+}
+
 
 .social-element1 a:active,
 .social-element2 a:active,
 .social-element3 a:active{
-  background-color: #5496bd;
   opacity: 0.3;
 }
 
