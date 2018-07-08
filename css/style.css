@@ -948,7 +948,7 @@ a.link-logo:active {
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center -300px;
-  padding: 26px 70px 12px;
+  padding: 26px 69px 12px;
   margin: 0;
 }
 
@@ -1334,7 +1334,7 @@ button.down {
 }
 
 .filter-check-title {
-  margin: 0 0 15px 0;
+  margin: 0 0 16px 0;
   font-size: 16px;
 }
 
