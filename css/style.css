@@ -677,6 +677,7 @@ background-image: url("../img/youtube.svg");
 .social-element2 a:active,
 .social-element3 a:active{
   background-color: #5496bd;
+  opacity: 0.3;
 }
 
 
