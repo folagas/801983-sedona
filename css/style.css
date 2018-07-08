@@ -535,6 +535,7 @@ button.icon-minus {
   display: flex;
   vertical-align: top;
   font-weight: 700;
+  text-transform: inherit;
 }
 
 .form-input-date {
