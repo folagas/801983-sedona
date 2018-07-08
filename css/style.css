@@ -465,7 +465,9 @@ p.interes-inform {
   box-shadow: 0 8px 15px 0 rgba(0, 0, 0, .18);
 }
 
-.form {}
+.form {
+  font-weight: 700;
+}
 
 .counters {
   display: flex;
@@ -514,6 +516,7 @@ button.icon-minus {
 .form-input {
   display: flex;
   vertical-align: top;
+  font-weight: 700;
 }
 
 .form-input-date {
