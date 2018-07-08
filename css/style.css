@@ -1081,6 +1081,7 @@ button.hotel-button-link, button.hotel-button-action {
   text-transform: inherit;
   text-align: center;
   margin-right: 6px;
+  line-height: 21px;
 }
 
 .hotel-button-link {
