@@ -710,7 +710,7 @@ button.icon-calendar:active {
   border-bottom: solid #e5e5e5 1px;
   box-sizing: border-box;
   justify-content: flex-start;
-  padding: 30px 73px;
+  padding: 30px 73px 28px;
 }
 
 button.up {
@@ -948,7 +948,7 @@ a.link-logo:active {
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center -300px;
-  padding: 26px 69px 12px;
+  padding: 26px 69px 8px;
   margin: 0;
 }
 
@@ -1001,7 +1001,7 @@ a.link-logo:active {
 
 .checkbox {
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
 }
 
 .standart-checkbox {
@@ -1334,7 +1334,7 @@ button.down {
 }
 
 .filter-check-title {
-  margin: 0 0 16px 0;
+  margin: 0 0 17px 0;
   font-size: 16px;
 }
 
