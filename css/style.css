@@ -874,11 +874,11 @@ padding-left: 164px;
 
 }
 .hotel-details{
+display: flex;
+flex-wrap: wrap;
 
 }
-.hotel-description{
 
-}
 h3.hotel-about-title{
   font-size: 21px;
   color: #000000;
@@ -890,12 +890,14 @@ h3.hotel-about-title{
 .hotel-type{
   font-size: 14px;
   color: #333333;
+  width:124px;
 
 }
 .hotel-price{
   font-size: 14px;
   color: #333333;
-  margin-left: 40px;
+  width:110px;
+
 
 }
 
