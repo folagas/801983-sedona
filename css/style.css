@@ -1097,7 +1097,7 @@ h3.hotel-about-title {
   height:27px;
 }
 
-button.hotel-button-link, button.hotel-button-action {
+button.hotel-button-action {
   padding-left: 16px;
   padding-right: 16px;
   color: white;
@@ -1105,10 +1105,32 @@ button.hotel-button-link, button.hotel-button-action {
   text-align: center;
   margin-right: 6px;
   line-height: 21px;
+
+}
+a.hotel-button-link {
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  text-transform: inherit;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 1px;
+}
+.hotel-buttons a:hover{
+  background-color: #669ec0;
+}
+
+.hotel-buttons a:active{
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .hotel-button-link {
   background-color: #81b3d2;
+  margin-right: 6px;
+  height:27px;
 }
 
 button.hotel-button-link:hover {
