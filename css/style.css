@@ -731,7 +731,7 @@ button.icon-calendar:active {
   border-bottom: solid #e5e5e5 1px;
   box-sizing: border-box;
   justify-content: flex-start;
-  padding: 30px 73px 28px;
+  padding: 30px 73px 30px;
 }
 .results-menu button{
   box-shadow: 0;
@@ -997,7 +997,7 @@ a.link-logo:active {
   background-image: url("../img/filter_background1200.jpg");
   background-repeat: no-repeat;
   background-position: center -300px;
-  padding: 26px 69px 8px;
+  padding: 26px 69px 10px;
   margin: 0;
 }
 
@@ -1051,7 +1051,7 @@ a.link-logo:active {
 
 .checkbox {
   display: block;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 .standart-checkbox {
@@ -1121,25 +1121,33 @@ figure.hotel-img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  /*width: 100%;*/
+  flex-grow: 2;
 
 }
 
 .hotel-details {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
+}
+.hotel-about-title{
+  margin: 0;
 }
 
 h3.hotel-about-title {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: -1px;
+  margin-top: -2px;
 }
 .hotel-about-title a{
 color: #000000;
+margin: 0;
+padding: 0;
+line-height: 26px;
+
 }
 .hotel-about-title a:link{
 color: #000000;
@@ -1246,7 +1254,6 @@ button.hotel-button-action:active {
   justify-content: space-between;
   flex-direction: column;
   align-items: flex-end;
-  width: 100%;
 }
 
 .rating-number {
@@ -1256,8 +1263,8 @@ button.hotel-button-action:active {
   line-height: 21px;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   margin-right: 0px;
   text-align: right;
 
@@ -1457,7 +1464,7 @@ button.down {
 }
 
 .filter-check-title {
-  margin: 0 0 17px 0;
+  margin: 0 0 22px 2px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
