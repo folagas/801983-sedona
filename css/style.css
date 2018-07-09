@@ -965,13 +965,18 @@ ul.social {
   vertical-align: middle;
   display: inline-block;
 }
+a.link-logo {
+  color: #000000;
+}
 
 a.link-logo:hover {
   fill: #81b3d2;
+  color: #81b3d2;
 }
 
 a.link-logo:active {
   fill: #cacaca;
+  color: #cacaca;
 }
 
 .academy-logo {
