@@ -245,11 +245,11 @@ ul.five-reasons-list {
 }
 
 .container1 {
-  background-image: url(../img/feature1.jpg);
+  background-image: url("../img/feature1.jpg");
 }
 
 .container2 {
-  background-image: url(../img/feature2.jpg);
+  background-image: url("../img/feature2.jpg");
 }
 
 .container-photo-sedona img {
@@ -1034,7 +1034,7 @@ a.link-logo:active {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(../img/checkbox-off.svg);
+  background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
 }
 
@@ -1067,7 +1067,7 @@ a.link-logo:active {
 }
 
 .standart-checkbox:checked~.search-advanced-text::before {
-  background-image: url(../img/checkbox-on.svg);
+  background-image: url("../img/checkbox-on.svg");
 }
 
 /*карточки отелей*/
@@ -1377,10 +1377,7 @@ button.down {
   transform: translate(-50%, -50%);
 }
 
-.price-controls
-/*label*/
-
-  {
+.price-controls {
   display: inline-block;
   font-size: 14px;
   line-height: 38px;
