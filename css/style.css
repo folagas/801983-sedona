@@ -512,6 +512,7 @@ p.interest-inform {
   background: #ffffff;
   padding: 55px;
   box-shadow: 0 8px 15px 0 rgba(0, 0, 0, .18);
+  animation: fade 0.8s;
 }
 
 .form {
@@ -1480,4 +1481,18 @@ button.down {
 
 .filter-check-title h4 {
   margin: 0px;
+}
+
+
+@keyframes fade {
+0% {
+opacity: 0;
+}
+20% {
+opacity: 0.5;
+}
+
+100% {
+opacity: 1;
+}
 }
