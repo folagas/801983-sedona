@@ -444,7 +444,7 @@ input {
 
 .hotel-choice .interes {
   font-size: 30px;
-  line-height: 30px;
+  line-height: 24px;
   font-weight: 700;
 }
 
@@ -972,6 +972,7 @@ a.link-logo:active {
 .search-advanced-text {
   font-weight: 400;
   font-size: 14px;
+  line-height: 21px;
   position: relative;
   display: block;
   padding-left: 42px;
@@ -1358,6 +1359,8 @@ button.down {
 .filter-check-title {
   margin: 0 0 17px 0;
   font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
 }
 
 .filter-check-title h4 {
