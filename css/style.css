@@ -16,7 +16,7 @@ body {
   background-color: #f2f2f2;
 }
 
-a {
+/* a {
   text-decoration: none;
 }
 
@@ -47,7 +47,8 @@ ul, li {
 button {
   box-shadow: 0;
   border: 0;
-}
+}*/
+
 /*служебные стили*/
 
 .visually-hidden {
@@ -75,6 +76,21 @@ button {
   font-size: 14px;
   font-weight: 700;
   background-color: #ffffff;
+  color: #000000;
+}
+.main-navigation a{
+  text-decoration: none;
+  color: #000000;
+}
+.main-navigation a:link{
+  color: #000000;
+}
+.main-navigation a:hover{
+  color: #81b3d2;
+}
+
+.main-navigation a:active{
+  color: #cacaca;
 }
 
 .main-logo {
@@ -96,7 +112,12 @@ button {
 
 .site-navigation li {
   list-style: none;
+  margin: 0;
   /*width: 240px;*/
+}
+ul.site-navigation{
+  margin: 0;
+
 }
 
 .nav-left {
@@ -712,6 +733,11 @@ button.icon-calendar:active {
   justify-content: flex-start;
   padding: 30px 73px 28px;
 }
+.results-menu button{
+  box-shadow: 0;
+  border: 0;
+
+}
 
 button.up {
   fill: #cacaca;
@@ -773,6 +799,8 @@ button.arrow-button-current {
 
 li.results-menu {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .results-sorting-title {
@@ -794,28 +822,44 @@ li.results-menu {
   justify-content: flex-start;
   list-style: none;
 }
+ul.results-sorting-classification{
+  margin: 0;}
 
 .sorting-nav-current, .sorting-nav-plain {
   margin-right: 20px;
+  text-decoration: none;
 }
 
 .sorting-nav-current a:link {
   color: #81b3d2;
+  text-decoration: none;
+}
+.sorting-nav-current a:visited {
+  color: #81b3d2;
+  text-decoration: none;
 }
 
 .sorting-nav-plain a:link {
   color: #cacaca;
   border-bottom: 1px dotted #81b3d2;
+  text-decoration: none;
 }
 
 .sorting-nav-plain a:hover {
   color: #81b3d2;
   border-bottom: 1px dotted #81b3d2;
+  text-decoration: none;
 }
 
 .sorting-nav-plain a:active {
   color: #000000;
   border-bottom: 0px;
+  text-decoration: none;
+}
+.sorting-nav-plain a:visited {
+  color: #cacaca;
+  border-bottom: 1px dotted #81b3d2;
+  text-decoration: none;
 }
 
 .search-advanced {
@@ -1026,19 +1070,32 @@ a.link-logo:active {
 figure.hotels-list {
   margin-bottom: 30px;
 }
+.hotels-list button{
+  box-shadow: 0;
+  border: 0;
+}
+.hotels-list a{
+  text-decoration: none;
+}
+
 
 figure.hotel-img {
-
+  position: relative;
   margin-left: 0;
   margin-right: 30px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   width: 135px;
+  height: 90px;
+
 }
 
-.hotel-img img {
+.hotel-img img{
   display: block;
+  width: 135px;
+  height: 90px;
+
 }
 
 .hotel {
@@ -1071,9 +1128,22 @@ figure.hotel-img {
 
 h3.hotel-about-title {
   font-size: 21px;
+  line-height: 26px;
   color: #000000;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+.hotel-about-title a{
+color: #000000;
+}
+.hotel-about-title a:link{
+color: #000000;
+}
+.hotel-about-title a:hover{
+color: #81b3d2;
+}
+.hotel-about-title a:active{
+color: #81b3d2;
 }
 
 .hotel-type {
@@ -1096,6 +1166,9 @@ h3.hotel-about-title {
   margin: 0;
   padding: 0;
   height:27px;
+  box-shadow: 0;
+  border: 0;
+
 }
 
 button.hotel-button-action {
@@ -1106,7 +1179,14 @@ button.hotel-button-action {
   text-align: center;
   margin-right: 6px;
   line-height: 21px;
+  box-shadow: 0;
+  border: 0;
 
+}
+.hotel-button-link {
+  background-color: #81b3d2;
+  margin-right: 6px;
+  height:27px;
 }
 a.hotel-button-link {
   padding-left: 16px;
@@ -1117,7 +1197,7 @@ a.hotel-button-link {
   margin-bottom: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-top: 1px;
+  padding-top: 0px;
 }
 .hotel-buttons a:hover{
   background-color: #669ec0;
@@ -1158,13 +1238,17 @@ button.hotel-button-action:active {
 
 .hotel-rating{
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   align-items: flex-end;
+  width: 100%;
 }
 
 .rating-number {
   color: #666666;
   background-color: #f2f2f2f2;
+  font-size: 14px;
+  line-height: 21px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 6px;
@@ -1192,7 +1276,6 @@ button.down {
   position: relative;
   width: 210px;
   height: 21px;
-  margin-bottom: 42px;
   background: transparent url("../img/icon-star.svg") repeat-x;
   background-position: right top;
   background-size: 24px;
