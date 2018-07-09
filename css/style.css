@@ -138,7 +138,19 @@ ul.site-navigation{
   width:auto;
 }
 
-.navigation-active a {
+.navigation-active a{
+  color: #766357;
+}
+.navigation-active a:link{
+  color: #766357;
+}
+.navigation-active a:hover{
+  color: #766357;
+}
+.navigation-active a:active{
+  color: #766357;
+}
+.navigation-active a:visited{
   color: #766357;
 }
 
@@ -1037,6 +1049,7 @@ a.link-logo:active {
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
 }
+
 
 .checkbox {
   cursor: pointer;
