@@ -475,19 +475,17 @@ input {
   padding: 55px 0 0;
 }
 
-.hotel-choice .interes {
+
+p.interesting{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
   font-size: 30px;
   line-height: 24px;
   font-weight: 700;
 }
 
-p.interes {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 24px;
-}
-
-p.interes-inform {
+p.interest-inform {
   padding: 0;
   margin: 0 0 44px 0;
 }
