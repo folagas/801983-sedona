@@ -1156,6 +1156,12 @@ button.hotel-button-action:active {
   color: #928a85;
 }
 
+.hotel-rating{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .rating-number {
   color: #666666;
   background-color: #f2f2f2f2;
@@ -1164,6 +1170,8 @@ button.hotel-button-action:active {
   padding-top: 6px;
   padding-bottom: 6px;
   margin-right: 0px;
+  text-align: right;
+
 }
 
 button.up {
@@ -1175,10 +1183,14 @@ button.down {
 }
 
 /*рейтинг отелей*/
+.stars{
+  text-align: right;
+  margin-left: auto;
+}
 
 .ratings-stars {
   position: relative;
-  width: 110px;
+  width: 210px;
   height: 21px;
   margin-bottom: 42px;
   background: transparent url("../img/icon-star.svg") repeat-x;
