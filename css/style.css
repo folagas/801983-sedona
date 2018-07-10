@@ -312,7 +312,14 @@ h3.five-reasons-title {
 p.five-reasons-normal {
   font-size: 14px;
   line-height: 21px;
-  padding: 0 30px 0;
+  padding: 0 28px 0;
+  margin: 0;
+  color: #333333;
+}
+p.five-reasons-normal-black{
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 48px 0;
   margin: 0;
   color: #333333;
 }
@@ -477,9 +484,8 @@ input {
 
 
 p.interesting{
-  padding: 0;
+  padding: 0 0 20px;
   margin: 0;
-  margin-bottom: 24px;
   font-size: 30px;
   line-height: 24px;
   font-weight: 700;
@@ -487,7 +493,7 @@ p.interesting{
 
 p.interest-inform {
   padding: 0;
-  margin: 0 0 44px 0;
+  margin: 5px 0 50px 0;
 }
 
 .hotel-choice p {
