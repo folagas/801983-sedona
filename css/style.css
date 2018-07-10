@@ -1088,6 +1088,16 @@ a.link-logo:active {
   background-image: url("../img/checkbox-on.svg");
 }
 
+.standart-checkbox:checked:disabled~.search-advanced-text::before {
+  background-image: url("../img/checkbox-on.svg");
+  opacity: 0.3;
+}
+
+.standart-checkbox:disabled~.search-advanced-text::before {
+  background-image: url("../img/checkbox-off.svg");
+  opacity: 0.3;
+}
+
 /*карточки отелей*/
 
 figure.hotels-list {
