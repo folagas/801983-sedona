@@ -822,11 +822,14 @@ li.results-menu {
 
 .results-sorting-title {
   display: flex;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .results-sorting-menu {
   display: flex;
   font-size: 12px;
+  line-height: 18px;
 }
 
 .results-menu:last-child {
@@ -845,6 +848,8 @@ ul.results-sorting-classification{
 .sorting-nav-current, .sorting-nav-plain {
   margin-right: 20px;
   text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .sorting-nav-current a:link {
@@ -1408,7 +1413,7 @@ button.down {
 .price-controls {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 21px;
   vertical-align: top;
   cursor: pointer;
   width: 330px;
@@ -1418,6 +1423,8 @@ button.down {
   width: 90px;
   padding-left: 62px;
   padding-right: 25px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .price-controls input {
