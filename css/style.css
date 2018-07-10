@@ -1024,20 +1024,36 @@ a.link-logo:active {
 }
 
 .search-advanced form {
+
   margin: 0;
   padding: 0;
 }
+.search-advanced{
+  display: flex;
+  justify-content: space-between;
+  }
 
 .search-group {
   width: 255px;
   color: #ffffff;
-  margin-left: 0;
+
+
+}
+.search-group:nth-child(2) {
+  width: 255px;
+  color: #ffffff;
+  margin-right: auto;
+
+
+
 }
 
+
 .search-group-filter {
+  box-sizing: border-box;
   margin-left: auto;
   margin-top: 0px;
-  width: 330px;
+  width: 320px;
 }
 
 .search-advanced-text {
@@ -1374,8 +1390,10 @@ button.down {
 /* страница отелей, расширенный поиск:сложная форма ввода инфы с ползунками */
 
 .filter-range {
-  width: 330px;
+  margin-left: auto;
+  width: 320px;
   color: #ffffff;
+  margin: 0;
 }
 
 .filter-range-title {
@@ -1413,16 +1431,16 @@ button.down {
 .price-controls {
   display: inline-block;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 38px;
   vertical-align: top;
   cursor: pointer;
-  width: 330px;
+  width: 320px;
 }
 
 .price-controls .min-price, .price-controls .max-price {
-  width: 90px;
-  padding-left: 62px;
-  padding-right: 25px;
+  width: 93px;
+  padding-left: 60px;
+  padding-right: 20px;
   font-size: 14px;
   line-height: 21px;
 }
@@ -1478,16 +1496,19 @@ button.down {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
+  margin: 2px auto;
   padding: 6px 35px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+}
+button.btn-transparent {
+  margin-left: 82px;
 }
 
 .btn-transparent:hover {
