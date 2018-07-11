@@ -16,39 +16,6 @@ body {
   background-color: #f2f2f2;
 }
 
-/* a {
-  text-decoration: none;
-}
-
-a:link {
-  color: #000000;
-}
-
-a:visited {
-  color: #000000;
-}
-
-a:focus {
-  color: #766357;
-}
-
-a:hover {
-  color: #81b3d2;
-}
-
-a:active {
-  color: #cacaca;
-}
-
-ul, li {
-  margin: 0;
-}
-
-button {
-  box-shadow: 0;
-  border: 0;
-}*/
-
 /*служебные стили*/
 
 .visually-hidden {
@@ -558,12 +525,21 @@ button.icon-plus {
   font-size: 21pt;
 }
 
+button.icon-plus:focus {
+  background-color: #ffffff;
+  border: 1px solid #cacaca;
+}
+
+button.icon-minus:focus {
+  background-color: #ffffff;
+  border: 1px solid #cacaca;
+}
+
 button.icon-minus {
   width: 38px;
   height: 38px;
   font-size: 21pt;
 }
-
 
 .form-label {
   vertical-align: top;
@@ -712,6 +688,10 @@ button.icon-calendar:active {
   color: #fff;
 }
 
+.mybutton:focus {
+  color: #fff;
+}
+
 .mybutton-order {
   background: #766357;
   width: 568px;
@@ -784,9 +764,11 @@ button.arrow-button-current {
 button.up:hover {
   fill: #000000;
 }
+
 button.up:link {
   fill: #cacaca;
 }
+
 button.up:focus {
   fill: #81b3d2;
 }
@@ -798,12 +780,15 @@ button.up:visited {
 button.up:active {
   fill: #81b3d2;
 }
+
 button.down:hover {
   fill: #000000;
 }
+
 button.down:link {
   fill: #cacaca;
 }
+
 button.down:focus {
   fill: #81b3d2;
 }
@@ -816,22 +801,6 @@ button.down:active {
   fill: #81b3d2;
 }
 
-/*.sorting-arrows svg:link {
-  fill: #cacaca;
-}
-
-.sorting-arrows svg:visited {
-  fill: #cacaca;
-}
-
-.sorting-arrows svg:active {
-  fill: #81b3d2;
-}
-
-.sorting-arrows svg:hover {
-  fill: #000000;
-}*/
-
 .sorting-arrows {
   margin-left: auto;
 }
@@ -843,17 +812,12 @@ button.down:active {
   line-height: 26px;
   width: 140px;
   font-weight: 700;
-
-
 }
 
 .results-found-number {
   font-size: 21px;
   line-height: 26px;
   margin-left: 5px;
-
-
-
 }
 
 .results-sorting {
@@ -894,11 +858,9 @@ li.results-menu {
 
 ul.results-sorting-classification {
   margin: 0;
-
 }
-.results-sorting-classification li{
 
-}
+.results-sorting-classification li {}
 
 .sorting-nav-current, .sorting-nav-plain {
   margin-right: 34px;
@@ -1035,7 +997,7 @@ ul.social {
   text-align: center;
 }
 
-.link-logo svg{
+.link-logo svg {
   width: 115px;
   height: 41px;
   margin: 0;
@@ -1043,6 +1005,7 @@ ul.social {
   vertical-align: middle;
   display: inline-block;
 }
+
 a.link-logo {
   color: #000000;
   text-decoration: none;
@@ -1167,13 +1130,14 @@ a.link-logo:active {
   background-image: url("../img/checkbox-off.svg");
   opacity: 0.3;
 }
-.checkbox input[type="checkbox"]:focus ~ .search-advanced-text::before {
-background-color: rgba(179, 179, 210, 0.5);
-width:24px;
-height:24px;
-border-radius: 4px;
 
+.checkbox input[type="checkbox"]:focus~.search-advanced-text::before {
+  background-color: rgba(179, 179, 210, 0.5);
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
 }
+
 /*карточки отелей*/
 
 figure.hotels-list {
@@ -1184,7 +1148,8 @@ figure.hotels-list {
   box-shadow: 0;
   border: 0;
 }
-.hotels-list{
+
+.hotels-list {
   background-color: #ffffff;
 }
 
