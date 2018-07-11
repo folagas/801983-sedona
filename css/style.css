@@ -755,6 +755,7 @@ button.icon-calendar:active {
 .results-menu button {
   box-shadow: 0;
   border: 0;
+  background-color: inherit;
 }
 
 button.up {
@@ -783,7 +784,34 @@ button.arrow-button-current {
   padding: 0;
 }
 
-.sorting-arrows svg:link {
+button.up:hover {
+  fill: #000000;
+}
+button.up:link {
+  fill: #cacaca;
+}
+button.up:focus {
+  fill: #81b3d2;
+}
+
+button.up:visited {
+  fill: #cacaca;
+}
+
+button.up:active {
+  fill: #81b3d2;
+}
+
+
+
+
+
+
+
+
+
+
+/*.sorting-arrows svg:link {
   fill: #cacaca;
 }
 
@@ -797,7 +825,7 @@ button.arrow-button-current {
 
 .sorting-arrows svg:hover {
   fill: #000000;
-}
+}*/
 
 .sorting-arrows {
   margin-left: auto;
@@ -1144,6 +1172,9 @@ figure.hotels-list {
 .hotels-list button {
   box-shadow: 0;
   border: 0;
+}
+.hotels-list{
+  background-color: #ffffff;
 }
 
 .hotels-list a {
