@@ -745,11 +745,11 @@ button.icon-calendar:active {
 .results-menu {
   display: flex;
   flex-wrap: nowrap;
+  align-items: baseline;
   width: 100%;
   border-bottom: solid #e5e5e5 1px;
   box-sizing: border-box;
-  justify-content: flex-start;
-  padding: 30px 73px 30px;
+  padding: 30px 73px 28px;
 }
 
 .results-menu button {
@@ -759,9 +759,11 @@ button.icon-calendar:active {
 
 button.up {
   fill: #cacaca;
-  margin: 0;
-  padding: 0 4px;
+  margin: 0 4px 0 0;
+  padding: 0;
   cursor: pointer;
+  box-shadow: 0;
+  border: 0;
 }
 
 button.down {
@@ -769,10 +771,16 @@ button.down {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  box-shadow: 0;
+  border: 0;
 }
 
 button.arrow-button-current {
   fill: #81b3d2;
+  box-shadow: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .sorting-arrows svg:link {
@@ -799,17 +807,25 @@ button.arrow-button-current {
   display: flex;
   flex-wrap: wrap;
   font-size: 21px;
+  line-height: 26px;
   width: 140px;
-  font-weight: bold;
+  font-weight: 700;
+
+
 }
 
 .results-found-number {
   font-size: 21px;
+  line-height: 26px;
   margin-left: 5px;
+
+
+
 }
 
 .results-sorting {
   display: flex;
+  align-items: flex-end;
   font-size: 12px;
   max-width: 800px;
   padding-left: 22px;
@@ -840,16 +856,19 @@ li.results-menu {
 .results-sorting-classification {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   list-style: none;
 }
 
 ul.results-sorting-classification {
   margin: 0;
+
+}
+.results-sorting-classification li{
+
 }
 
 .sorting-nav-current, .sorting-nav-plain {
-  margin-right: 20px;
+  margin-right: 34px;
   text-decoration: none;
   font-size: 12px;
   line-height: 18px;
@@ -983,7 +1002,7 @@ ul.social {
   text-align: center;
 }
 
-.link-logo svg {
+.link-logo svg{
   width: 115px;
   height: 41px;
   margin: 0;
@@ -991,9 +1010,9 @@ ul.social {
   vertical-align: middle;
   display: inline-block;
 }
-
 a.link-logo {
   color: #000000;
+  text-decoration: none;
 }
 
 a.link-logo:hover {
@@ -1014,7 +1033,7 @@ a.link-logo:active {
 .made-by {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 8px;
+  margin-right: 6px;
 }
 
 /*страница отелей: форма поиска расширенная*/
@@ -1318,11 +1337,11 @@ button.hotel-button-action:active {
 }
 
 button.up {
-  background-color: inherit;
+  background-color: none;
 }
 
 button.down {
-  background-color: inherit;
+  background-color: none;
 }
 
 /*рейтинг отелей*/
