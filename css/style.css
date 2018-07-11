@@ -801,15 +801,23 @@ button.up:visited {
 button.up:active {
   fill: #81b3d2;
 }
+button.down:hover {
+  fill: #000000;
+}
+button.down:link {
+  fill: #cacaca;
+}
+button.down:focus {
+  fill: #81b3d2;
+}
 
+button.down:visited {
+  fill: #cacaca;
+}
 
-
-
-
-
-
-
-
+button.down:active {
+  fill: #81b3d2;
+}
 
 /*.sorting-arrows svg:link {
   fill: #cacaca;
@@ -1162,7 +1170,13 @@ a.link-logo:active {
   background-image: url("../img/checkbox-off.svg");
   opacity: 0.3;
 }
+.checkbox input[type="checkbox"]:focus ~ .search-advanced-text::before {
+background-color: rgba(179, 179, 210, 0.5);
+width:24px;
+height:24px;
+border-radius: 4px;
 
+}
 /*карточки отелей*/
 
 figure.hotels-list {
