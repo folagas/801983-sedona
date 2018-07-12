@@ -1335,7 +1335,7 @@ figure.hotel-img
 {
 	display:flex;
 	flex-wrap:wrap;
-	margin-bottom:4px
+	margin-bottom:4px;
 }
 
 .hotel-about-title
@@ -1602,7 +1602,7 @@ button.down
 	margin-bottom:20px;
 	font-size:0;
 	border:2px solid #fff;
-	border-radius:2px
+	border-radius:2px;
 }
 
 .price-controls::after
@@ -1614,56 +1614,59 @@ button.down
 	width:2px;
 	height:22px;
 	background:#fff;
-	transform:translate(-50%,-50%)
+	transform:translate(-50%,-50%);
 }
 
 .price-controls
 {
 	display:inline-block;
 	font-size:14px;
-	line-height:38px;
-	vertical-align:top;
+	line-height:21px;
 	cursor:pointer;
-	width:320px
+	width:320px;
+	padding-top:4px;
 }
 
 .price-controls .min-price,.price-controls .max-price
 {
-	width:93px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	padding-left:60px;
 	padding-right:20px;
 	font-size:14px;
 	line-height:21px;
-	margin:auto
+	margin:auto;
+
 }
 
 .price-controls input
 {
 	width:50px;
 	margin:0;
+	padding: 0;
 	color:inherit;
 	font:inherit;
 	background:none;
-	border:none
+	border:none;
 }
 
 .range-controls
 {
 	position:relative;
-	margin-bottom:32px
+	margin-bottom:32px;
 }
 
 .range-controls .scale
 {
 	height:2px;
-	background:rgba(255,255,255,0.3)
+	background:rgba(255,255,255,0.3);
 }
 
 .range-controls .bar
 {
 	width:80%;
 	height:2px;
-	background:#fff
+	background:#fff;
 }
 
 .range-toggle
@@ -1681,24 +1684,24 @@ button.down
 	cursor:pointer;
 	font-size:0;
 	line-height:0;
-	padding:0
+	padding:0;
 }
 
 .range-toggle:hover
 {
 	box-sizing:content-box;
 	border-width:11px;
-	transform:translate(-13%,-13%)
+	transform:translate(-13%,-13%);
 }
 
 .range-toggle-min
 {
-	left:0
+	left:0;
 }
 
 .range-toggle-max
 {
-	left:80%
+	left:80%;
 }
 
 .btn-transparent
@@ -1713,18 +1716,18 @@ button.down
 	background:transparent;
 	border:2px solid #fff;
 	border-radius:2px;
-	cursor:pointer
+	cursor:pointer;
 }
 
 button.btn-transparent
 {
-	margin-left:82px
+	margin-left:82px;
 }
 
 .btn-transparent:hover
 {
 	color:#000;
-	background:#fff
+	background:#fff;
 }
 
 .filter-check-title
@@ -1732,12 +1735,12 @@ button.btn-transparent
 	margin:0 0 22px 2px;
 	font-size:16px;
 	line-height:21px;
-	font-weight:700
+	font-weight:700;
 }
 
 .filter-check-title h4
 {
-	margin:0
+	margin:0;
 }
 
 @keyframes fade {
