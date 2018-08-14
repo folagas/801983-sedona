@@ -71,6 +71,7 @@ body
 .main-logo
 {
 	position:absolute;
+	z-index: 1;
 	left:50%;
 	margin-left:-69px;
 	top:0
@@ -148,7 +149,7 @@ ul.site-navigation
 	margin-right:auto;
 	box-shadow:0 0 8px rgba(122,122,122,0.2)
 }
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .container div {
 		background-color: red;
   }
@@ -157,6 +158,87 @@ ul.site-navigation
 		display: none;
 		background-color: red;
 	}
+  .container-hamburger {
+      position: absolute;
+
+  }
+
+
+li div.container-photo-sedona
+  {
+  	width:100%;
+  	overflow:hidden;
+  	position:relative;
+  	background-size:cover;
+  	background-position:0 -5px;
+  	background-repeat:no-repeat;
+		background-color: green;
+  	flex-grow:1;
+  	flex-shrink:0;
+		flex-direction: column;
+		flex-wrap: wrap;
+		left-margin: auto;
+		height:240px;
+  }
+
+  li.five-reasons-element-1
+  {
+  	display:flex;
+    flex-wrap: wrap;
+		flex-basis: auto;
+		background-color:#81b3d2;
+  	color:#fff;
+  	width:100%;
+  	text-align:center;
+  	min-height:256px;
+  	padding:0
+  }
+
+  div.container-text-foto-sedona
+  {
+  	display:block;
+  	padding-top:50px;
+  	padding-left:20px;
+  	padding-right:20px;
+		padding-bottom: 40px;
+  	box-sizing:border-box;
+  	color:#fff;
+  	width:100%
+  }
+
+  li.five-reasons-element-2
+  {
+  	text-align:center;
+  	background-color:#eee;
+  	width:100%;
+  	box-sizing:border-box;
+  	margin:0;
+  	padding:30px 10px 20px;
+  }
+
+
+  .hamburger {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      margin-right: 5px;
+      border-top: 5px solid #000;
+      border-bottom: 5px solid #000;
+      background-color: red;
+  }
+
+  .hamburger:before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 0px;
+      width: 100%;
+      border-top: 5px solid #000;
+  }
+
+
+
 }
 
 
@@ -164,6 +246,7 @@ ul.site-navigation
 
 .presentation-container
 {
+
 	width:600px;
 	padding-top:60px;
 	padding-bottom:48px;
@@ -197,6 +280,7 @@ p.presentation-subtext
 
 .intro
 {
+  position: relative;
 	height:510px;
 	background-color:#5284b3;
 	background-image:url(../img/welcome.png),url(../img/white_mask.svg),url(../img/sedona_background1200.jpg);
@@ -222,7 +306,7 @@ ul.five-reasons-list
 .five-reasons-element-1
 {
 	display:flex;
-	background-color:#81b3d2;
+  background-color:#81b3d2;
 	color:#fff;
 	width:100%;
 	text-align:center;
