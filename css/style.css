@@ -151,7 +151,7 @@ ul.site-navigation
 }
 @media (max-width: 720px) {
   .container div {
-		background-color: red;
+		/*background-color: red;*/
   }
 
 	nav {
@@ -215,6 +215,13 @@ li div.container-photo-sedona
   	margin:0;
   	padding:30px 10px 20px;
   }
+	ul li.five-reasons-subelement
+	{
+		flex-grow:2;
+		width:100%;
+		padding:162px 0 10px;
+	  margin-right: auto;
+	}
 
 
   .hamburger {
@@ -247,10 +254,10 @@ li div.container-photo-sedona
 .presentation-container
 {
 
-	width:600px;
+	width:50%;
 	padding-top:60px;
 	padding-bottom:48px;
-	margin:0 auto
+	margin:0 auto;
 }
 
 p.presentation-text
@@ -377,7 +384,7 @@ ul.five-reasons-list
 	text-align:center;
 	background-color:#eee;
 	width:33.3333333%;
-	box-sizing:border-box;
+  box-sizing:border-box;
 	margin:0;
 	padding:46px 20px 66px
 }
@@ -391,7 +398,7 @@ ul.five-reasons-list
 	width:70%;
 	padding:0 50px;
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
 }
 
 h3.five-reasons-title
@@ -454,6 +461,7 @@ span.number-cause
 .five-reasons-subcategory
 {
 	display:flex;
+  flex-wrap: wrap;
 	justify-content:space-between;
 	list-style:none;
 	margin:0;
@@ -475,9 +483,10 @@ ul.five-reasons-subcategory
 
 li.five-reasons-subelement
 {
-	flex-grow:1;
+	flex-grow:2;
 	width:33.3333%;
-	padding:162px 0 84px
+	padding:162px 0 84px;
+  margin-right: auto;
 }
 
 .house
