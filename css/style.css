@@ -158,6 +158,10 @@ ul.site-navigation
 		display: none;
 		background-color: red;
 	}
+
+
+
+
   .container-hamburger {
       position: absolute;
 
@@ -172,7 +176,7 @@ li div.container-photo-sedona
   	background-size:cover;
   	background-position:0 -5px;
   	background-repeat:no-repeat;
-		background-color: green;
+		background-color: white;
   	flex-grow:1;
   	flex-shrink:0;
 		flex-direction: column;
@@ -592,7 +596,7 @@ input
 {
 	position:relative;
 	z-index:1;
-	width:568px;
+	max-width:568px;
 	margin:0 auto;
 	text-align:center;
 	padding:55px 0 0
@@ -869,7 +873,7 @@ button.icon-calendar:active
 .mybutton-order
 {
 	background:#766357;
-	width:568px
+	width:100%;
 }
 
 .mybutton-order:hover
