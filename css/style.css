@@ -181,16 +181,16 @@ nav.main-navigation {
 		top: 10px;
 		left: 10px;
 		border: solid 0px #aaa;
-		background: #FAFAFA url(img/icon-menu.png) no-repeat 10px 11px;
+		background: #fafafa no-repeat 0px 0px;
 		border-radius: 0px;
 		box-shadow: 0 1px 3px rgba(0,0,0,.3);
 	}
 	.main-navigation li {
-		display: none; /* скрыть все <li> пункты */
+		display: none; /* hide all <li>  */
 		margin: 0;
 	}
 	.main-navigation .current {
-		display: block; /* показывать только текущие активные <li> пункты */
+		display: block; /* show current  <li> */
 	}
 	.main-navigation a {
 		display: block;
@@ -211,7 +211,7 @@ nav.main-navigation {
 		margin: 0 0 5px;
 	}
 	.main-navigation ul:hover .current {
-		background: url(img/icon-check.png) no-repeat 10px 7px;
+		/*background: url("../img/icon-check.png") no-repeat 0px 0px;*/
 	}
 
   .site-navigation
@@ -226,11 +226,13 @@ nav.main-navigation {
 
 	/*adaptive menu end*/
 
+	.intro
+	{
 
-  .container-hamburger {
-      position: absolute;
+		background-size: contain,auto,auto;
 
-  }
+	}
+
 
 
 li div.container-photo-sedona
@@ -294,8 +296,6 @@ li div.container-photo-sedona
 
 
 
-
-
 }
 
 
@@ -344,7 +344,7 @@ p.presentation-subtext
 	background-repeat:no-repeat;
 	background-position:center 77px,bottom center,center -82px;
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
 }
 
 .five-reasons-list
@@ -543,7 +543,10 @@ li.five-reasons-subelement
 {
 	background-image:url(../img/icon-1.svg);
 	background-repeat:no-repeat;
-	background-position:center 60px
+	background-position:center 60px;
+	background-clip: border-box;
+
+
 }
 
 .food
@@ -704,12 +707,14 @@ p.interest-inform
 .counter-adult-children
 {
 	display:flex;
-	flex-grow:1
+	flex-grow:1;
+
 }
 
 .form-part
 {
 	display:flex;
+  flex-wrap: wrap;
 	position:relative;
 	margin:0;
 	margin-bottom:28px;
@@ -764,8 +769,8 @@ button.icon-minus
 .form-input-date
 {
 	position:relative;
-	width:342px;
-	padding-right:38px
+	width:auto;
+	padding-right:38px;
 }
 
 .input-calendar
