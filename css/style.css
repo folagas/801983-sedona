@@ -406,7 +406,7 @@ ul.five-reasons-list
 	overflow:hidden;
 	position:relative;
 	background-size:cover;
-	background-position:0 -78px;
+	background-position:0 0px;
 	background-repeat:no-repeat;
 	flex-grow:1;
 	flex-shrink:0
