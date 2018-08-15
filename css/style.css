@@ -159,20 +159,31 @@ ul.site-navigation
   }
 
 /* adaptive menu*/
+
+nav a.main-logo{
+  display:none;
+}
+nav.main-navigation {
+
+	height:64px;
+	background-color: #ddebf4;
+}
+
+
 .main-navigation {
 		position: relative;
 		min-height: 40px;
 	}
 	.main-navigation ul {
-		width: 180px;
-		padding: 5px 0;
+		width: 200px;
+		padding: 5px 10px;
 		position: absolute;
-		top: 0;
-		left: 0;
-		border: solid 1px #aaa;
-		background: #FAFAFA url(images/icon-menu.png) no-repeat 10px 11px;
-		border-radius: 5px;
-		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+		top: 10px;
+		left: 10px;
+		border: solid 0px #aaa;
+		background: #FAFAFA url(img/icon-menu.png) no-repeat 10px 11px;
+		border-radius: 0px;
+		box-shadow: 0 1px 3px rgba(0,0,0,.3);
 	}
 	.main-navigation li {
 		display: none; /* скрыть все <li> пункты */
@@ -200,7 +211,7 @@ ul.site-navigation
 		margin: 0 0 5px;
 	}
 	.main-navigation ul:hover .current {
-		background: url(images/icon-check.png) no-repeat 10px 7px;
+		background: url(img/icon-check.png) no-repeat 10px 7px;
 	}
 
   .site-navigation
@@ -281,25 +292,7 @@ li div.container-photo-sedona
 	}
 
 
-  .hamburger {
-      position: relative;
-      display: inline-block;
-      width: 50px;
-      height: 25px;
-      margin-right: 5px;
-      border-top: 5px solid #000;
-      border-bottom: 5px solid #000;
-      background-color: red;
-  }
 
-  .hamburger:before {
-      content: "";
-      position: absolute;
-      top: 5px;
-      left: 0px;
-      width: 100%;
-      border-top: 5px solid #000;
-  }
 
 
 
