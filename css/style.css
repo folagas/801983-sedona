@@ -154,11 +154,6 @@ ul.site-navigation
 		/*background-color: red;*/
   }
 
-	/*nav {
-		display: none;
-		background-color: red;
-	}*/
-
 	nav.main-navigation{
     min-height:40px;
   }
@@ -196,7 +191,7 @@ ul.site-navigation
 		color: #666;
 	}
 
-	/* при наведении на пункты меню */
+	/* hover */
 	.main-navigation ul:hover {
 		background-image: none;
 	}
@@ -235,8 +230,7 @@ li div.container-photo-sedona
   	background-size:cover;
   	background-position:0 -5px;
   	background-repeat:no-repeat;
-		background-color: white;
-  	flex-grow:1;
+		flex-grow:1;
   	flex-shrink:0;
 		flex-direction: column;
 		flex-wrap: wrap;
