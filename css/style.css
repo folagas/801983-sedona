@@ -289,7 +289,7 @@ li div.container-photo-sedona
 	{
 		flex-grow:2;
 		width:100%;
-		padding:162px 0 10px;
+		padding:10px 0 10px;
 	  margin-right: auto;
 	}
 
@@ -447,8 +447,7 @@ ul.five-reasons-list
 	line-height:21px;
 	width:70%;
 	padding:0 50px;
-	margin-left:auto;
-	margin-right:auto;
+  margin: 0 auto;
 }
 
 h3.five-reasons-title
@@ -535,18 +534,19 @@ li.five-reasons-subelement
 {
 	flex-grow:2;
 	width:33.3333%;
-	padding:162px 0 84px;
+	padding:20px 0 20px;
   margin-right: auto;
 }
-
+div.five-reasons-sprite{
+  margin-bottom: 20px;
+}
+/*
 .house
 {
 	background-image:url(../img/icon-1.svg);
 	background-repeat:no-repeat;
 	background-position:center 60px;
 	background-clip: border-box;
-
-
 }
 
 .food
@@ -562,6 +562,7 @@ li.five-reasons-subelement
 	background-repeat:no-repeat;
 	background-position:center 56px
 }
+*/
 
 .search-hotel-wrapper
 {
@@ -1175,13 +1176,14 @@ li.sorting-nav-plain a:active
 .footer-info
 {
 	display:flex;
+	flex-wrap: wrap;
 	align-items:center;
 	background:rgba(255,255,255,0.9);
 	padding-top:36px;
 	padding-bottom:36px;
 	position:relative;
 	margin-top:-118px;
-	justify-content:space-between
+  justify-content: space-between;
 }
 
 .footer-info-inner
@@ -1206,7 +1208,7 @@ li.sorting-nav-plain a:active
 {
 	display:flex;
 	justify-content:center;
-	flex-wrap:wrap
+
 }
 
 ul.social
