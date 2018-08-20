@@ -2,17 +2,85 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      /* cyrillic-ext */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0-ExcOPIDUg-g.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0aExcOPIDUg-g.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0yExcOPIDUg-g.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KExcOPIDU.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0OOtLR8a8zILig.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0OqtLR8a8zILig.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0OCtLR8a8zILig.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tLR8a8zI.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--[if lt IE 9]-->
 	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <!--[endif]-->
     <title>HTML Academy: Седона</title>
+
   </head>
   <body>
+
     <div class="container">
       <header>
         <nav class="main-navigation">
@@ -40,10 +108,6 @@
             </li>
           </ul>
         </nav>
-
-<!-- -->
-
-
       </header>
       <main>
         <section class="intro">
@@ -56,7 +120,8 @@
           <p class="visually-hidden">Because the Grand Canyon sucks!
           </p>
         </section>
-        <section class="presentation-container">
+
+     <section class="presentation-container">
 
           <h2 class="visually-hidden">Преимущества Седоны
           </h2>
@@ -65,6 +130,7 @@
           <p class="presentation-subtext">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
           </p>
         </section>
+
         <ul class="five-reasons-list">
           <li class="five-reasons-element-1 first-feature">
             <div class="container-text-foto-sedona">
@@ -141,7 +207,7 @@
               <li class="five-reasons-subelement gifts">
                 <div class="five-reasons-sprite">
                   <svg class="" width="75" height="72">
-                  <use xlink:href="#house"></use>
+                  <use xlink:href="#gifts"></use>
                   </svg>
                 </div>
                 <h3 class="five-reasons-title">Сувениры
@@ -152,6 +218,7 @@
             </ul>
           </li>
         </ul>
+
         <section class="search-hotel">
           <h2 class="visually-hidden">Карта и поиск
           </h2>
@@ -209,6 +276,7 @@
             </div>
           </div>
         </section>
+
         <section class="footer-map">
           <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838162.8369633064!2d-111.79513845!3d34.854378399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2sSedona%2C+AZ%2C+USA!5e0!3m2!1sen!2sru!4v1435000602855" width="1200" height="593" allowfullscreen>
@@ -216,6 +284,7 @@
           </div>
         </section>
       </main>
+
       <footer class="footer-info">
         <div class="footer-hash">#visitsedona
         </div>
@@ -255,6 +324,9 @@
         </div>
       </footer>
     </div>
+
+
+    <div class="visually-hidden">
     <!-- svg sprite -->
     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px">
       <symbol id="food" viewBox="0 0 74 70" style="enable-background:new 0 0 74 70;" xml:space="preserve" width="74" height="70">
@@ -305,6 +377,7 @@
     </symbol>
   </svg>
     <!-- svg sprite end-->
+  </div>
     <script src="js/script.js"></script>
   </body>
 </html>

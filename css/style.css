@@ -141,13 +141,19 @@ ul.site-navigation
 	color:#766357
 }
 
-.container
+div.container
 {
-	background-color:#fff;
+  display: flex;
+  flex-direction: column;
+	background-color: #ffffff;
 	max-width:1200px;
+	min-height: 100vh;
 	margin-left:auto;
 	margin-right:auto;
-	box-shadow:0 0 8px rgba(122,122,122,0.2)
+	box-shadow:0 0 8px rgba(122,122,122,0.2);
+}
+main{
+	flex-grow: 1;
 }
 @media (max-width: 720px) {
   .container div {
@@ -241,7 +247,7 @@ li div.container-photo-sedona
   	overflow:hidden;
   	position:relative;
   	background-size:cover;
-  	background-position:0 -5px;
+  	background-position:0 0px;
   	background-repeat:no-repeat;
 		flex-grow:1;
   	flex-shrink:0;
@@ -539,6 +545,9 @@ li.five-reasons-subelement
 }
 div.five-reasons-sprite{
   margin-bottom: 20px;
+}
+div.sprite-wrapper{
+  height:0;
 }
 /*
 .house
@@ -1181,27 +1190,29 @@ li.sorting-nav-plain a:active
 	background:rgba(255,255,255,0.9);
 	padding-top:36px;
 	padding-bottom:36px;
-	position:relative;
-	margin-top:-118px;
-  justify-content: space-between;
+
+	margin-top: auto;
+  justify-content:space-around;
+
+
+
 }
 
-.footer-info-inner
-{
-	margin-top:0
-}
 
 .footer-hash
 {
 	font-size:21px;
 	font-weight:700;
-	width:33.33333%;
-	text-align:center
+margin: 0 auto 20px 7%;
+	text-align:center;
+	margin-bottom: 20px;
 }
 
 .footer-social-networks
 {
-	width:33.3333%
+margin: auto;
+margin-bottom: 20px;
+text-align: center;
 }
 
 .social
@@ -1273,8 +1284,9 @@ ul.social
 
 .bottom-logo
 {
-	width:33.333333%;
-	text-align:center
+margin: 10px auto 10px auto;
+	text-align:center;
+	margin-bottom: 20px;
 }
 
 .link-logo svg
@@ -1900,6 +1912,10 @@ button.btn-transparent
 {
 	margin:0
 }
+
+
+
+
 
 @keyframes fade {
 	0%
