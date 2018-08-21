@@ -184,8 +184,8 @@ main{
       		top: 10px;
       		left: 10px;
       		border: solid 0px #aaa;
-      		background: #fafafa no-repeat 0px 0px;
       		border-radius: 0px;
+					background: #fafafa no-repeat 0px 0px;
       		box-shadow: 0 1px 3px rgba(0,0,0,.3);
       	}
       	.main-navigation li {
@@ -242,13 +242,11 @@ main{
         	overflow:hidden;
         	position:relative;
         	background-size:cover;
-        	background-position:0 0px;
-        	background-repeat:no-repeat;
-      		flex-grow:1;
+        	background:0 0px no-repeat;
+        	flex-grow:1;
         	flex-shrink:0;
       		flex-direction: column;
       		flex-wrap: wrap;
-      		left-margin: auto;
       		height:240px;
         }
 
@@ -330,9 +328,8 @@ p.presentation-subtext
 {
   position: relative;
 	height:510px;
-	background-color:#5284b3;
+	background:#5284b3 no-repeat;
 	background-image:url(../img/welcome.png),url(../img/white_mask.svg),url(../img/sedona_background1200.jpg);
-	background-repeat:no-repeat;
 	background-position:center 77px,bottom center,center -82px;
 	margin-left:auto;
 	margin-right:auto;
@@ -382,8 +379,7 @@ ul.five-reasons-list
 	overflow:hidden;
 	position:relative;
 	background-size:cover;
-	background-position:0 0px;
-	background-repeat:no-repeat;
+	background:0 0px no-repeat;
 	flex-grow:1;
 	flex-shrink:0;
 }
@@ -779,10 +775,10 @@ button.icon-calendar
 	margin:0;
 	padding:0;
 	border:0;
-	background-image:url(../img/calendar.svg);
+	background:url(../img/calendar.svg)center center no-repeat;
 	background-size:50%;
-	background-repeat:no-repeat;
-	background-position:center center;
+
+
 	height:38px;
 	width:38px;
 	position:absolute;
@@ -1212,8 +1208,7 @@ ul.social
 	display:block;
 	width:46px;
 	height:48px;
-	background-repeat:no-repeat;
-	background-position:center center;
+	background:center center no-repeat;
 }
 
 .social-element1,.social-element2,.social-element3
@@ -1221,8 +1216,7 @@ ul.social
 	list-style:none;
 	width:46px;
 	height:48px;
-	background-repeat:no-repeat;
-	background-position:center center;
+	background:center center no-repeat;
 }
 
 .social-element1 a
@@ -1305,10 +1299,7 @@ a.link-logo:active
 
 .search-field
 {
-	background-color:#5284b3;
-	background-image:url(../img/filter_background1200.jpg);
-	background-repeat:no-repeat;
-	background-position:center -300px;
+	background:#5284b3 url(../img/filter_background1200.jpg) center -300px no-repeat;
 	padding:26px 69px 10px;
 	margin:0;
 }
@@ -1364,8 +1355,7 @@ a.link-logo:active
 	position:absolute;
 	left:0;
 	top:0;
-	background-image:url(../img/checkbox-off.svg);
-	background-repeat:no-repeat;
+	background:url(../img/checkbox-off.svg) no-repeat;
 }
 
 .checkbox
@@ -1664,9 +1654,8 @@ button.down
 	position:relative;
 	width:210px;
 	height:21px;
-	background:transparent url(../img/icon-star.svg) repeat-x;
-	background-position:right top;
-	background-size:24px
+	background:transparent url(../img/icon-star.svg) right top repeat-x;
+	background-size:24px;
 }
 
 .ratings-stars::before
@@ -1817,8 +1806,7 @@ button.down
 	width:4px;
 	height:4px;
 	background-color:#ababab;
-	border:solid #fff;
-	border-width:8px;
+	border:8px solid #fff;
 	border-radius:50%;
 	box-shadow:0 2px 1px 0 rgba(0,1,1,0.2);
 	cursor:pointer;
